@@ -1,0 +1,163 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560">
+  <defs>
+    <linearGradient id="gbg5" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a192f"/>
+      <stop offset="100%" stop-color="#0d2137"/>
+    </linearGradient>
+    <linearGradient id="gg5" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#64ffda"/>
+      <stop offset="100%" stop-color="#4dd9bf"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="560" fill="url(#gbg5)"/>
+
+  <!-- title -->
+  <text x="450" y="40" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="11" fill="rgba(100,255,218,0.4)" letter-spacing="3">ANALYTICS &amp; PERFORMANCE DASHBOARD</text>
+  <line x1="80" y1="50" x2="820" y2="50" stroke="rgba(100,255,218,0.07)" stroke-width="1"/>
+
+  <!-- ─── Stat Cards ─── -->
+  <!-- Card 1 -->
+  <rect x="30" y="68" width="190" height="96" rx="12" fill="#112240" stroke="rgba(100,255,218,0.15)" stroke-width="1.5"/>
+  <rect x="30" y="68" width="190" height="3" rx="1.5" fill="url(#gg5)"/>
+  <text x="48" y="92" font-family="Segoe UI,Arial,sans-serif" font-size="10" fill="#8892b0">Total Conversations</text>
+  <text x="48" y="130" font-family="Segoe UI,Arial,sans-serif" font-size="32" fill="#64ffda" font-weight="700">48.2K</text>
+  <text x="48" y="152" font-family="Segoe UI,Arial,sans-serif" font-size="10" fill="rgba(100,255,218,0.5)">↑ 23% this month</text>
+
+  <!-- Card 2 -->
+  <rect x="235" y="68" width="190" height="96" rx="12" fill="#112240" stroke="rgba(100,255,218,0.12)" stroke-width="1.5"/>
+  <rect x="235" y="68" width="190" height="3" rx="1.5" fill="#4dd9bf"/>
+  <text x="253" y="92" font-family="Segoe UI,Arial,sans-serif" font-size="10" fill="#8892b0">Intent Accuracy</text>
+  <text x="253" y="130" font-family="Segoe UI,Arial,sans-serif" font-size="32" fill="#4dd9bf" font-weight="700">96.4%</text>
+  <text x="253" y="152" font-family="Segoe UI,Arial,sans-serif" font-size="10" fill="rgba(77,217,191,0.5)">↑ 1.2% vs last week</text>
+
+  <!-- Card 3 -->
+  <rect x="440" y="68" width="190" height="96" rx="12" fill="#112240" stroke="rgba(100,255,218,0.12)" stroke-width="1.5"/>
+  <rect x="440" y="68" width="190" height="3" rx="1.5" fill="#a8b2d1"/>
+  <text x="458" y="92" font-family="Segoe UI,Arial,sans-serif" font-size="10" fill="#8892b0">Avg Response Time</text>
+  <text x="458" y="130" font-family="Segoe UI,Arial,sans-serif" font-size="32" fill="#ccd6f6" font-weight="700">284ms</text>
+  <text x="458" y="152" font-family="Segoe UI,Arial,sans-serif" font-size="10" fill="rgba(168,178,209,0.5)">↓ 12% improvement</text>
+
+  <!-- Card 4 -->
+  <rect x="645" y="68" width="225" height="96" rx="12" fill="#112240" stroke="rgba(100,255,218,0.12)" stroke-width="1.5"/>
+  <rect x="645" y="68" width="225" height="3" rx="1.5" fill="url(#gg5)" opacity="0.6"/>
+  <text x="663" y="92" font-family="Segoe UI,Arial,sans-serif" font-size="10" fill="#8892b0">Hybrid Mode Split</text>
+  <!-- simple donut -->
+  <circle cx="770" cy="125" r="30" fill="none" stroke="#172a45" stroke-width="10"/>
+  <circle cx="770" cy="125" r="30" fill="none" stroke="#64ffda" stroke-width="10" stroke-dasharray="122 66" stroke-dashoffset="-16"/>
+  <circle cx="770" cy="125" r="30" fill="none" stroke="#a8b2d1" stroke-width="10" stroke-dasharray="66 122" stroke-dashoffset="-138"/>
+  <text x="770" y="129" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="10" fill="#64ffda" font-weight="700">65%</text>
+  <text x="663" y="116" font-family="Segoe UI,Arial,sans-serif" font-size="10" fill="#64ffda">● Rule  65%</text>
+  <text x="663" y="134" font-family="Segoe UI,Arial,sans-serif" font-size="10" fill="#a8b2d1">● LLM   35%</text>
+
+  <!-- ─── Chart area ─── -->
+  <rect x="30" y="182" width="550" height="200" rx="12" fill="#112240" stroke="rgba(100,255,218,0.1)" stroke-width="1"/>
+  <rect x="30" y="182" width="550" height="3" rx="1.5" fill="url(#gg5)" opacity="0.4"/>
+  <text x="48" y="206" font-family="Segoe UI,Arial,sans-serif" font-size="12" fill="#ccd6f6" font-weight="600">Conversation Volume (7 days)</text>
+
+  <!-- chart grid -->
+  <line x1="50" y1="230" x2="560" y2="230" stroke="rgba(100,255,218,0.05)" stroke-width="1"/>
+  <line x1="50" y1="250" x2="560" y2="250" stroke="rgba(100,255,218,0.05)" stroke-width="1"/>
+  <line x1="50" y1="270" x2="560" y2="270" stroke="rgba(100,255,218,0.05)" stroke-width="1"/>
+  <line x1="50" y1="290" x2="560" y2="290" stroke="rgba(100,255,218,0.05)" stroke-width="1"/>
+  <line x1="50" y1="310" x2="560" y2="310" stroke="rgba(100,255,218,0.05)" stroke-width="1"/>
+  <line x1="50" y1="358" x2="560" y2="358" stroke="rgba(100,255,218,0.06)" stroke-width="1"/>
+
+  <!-- area fill -->
+  <polygon points="50,358 123,328 196,290 269,244 342,262 415,222 488,234 555,210 555,358" fill="rgba(100,255,218,0.06)"/>
+  <!-- line -->
+  <polyline points="50,358 123,328 196,290 269,244 342,262 415,222 488,234 555,210" fill="none" stroke="#64ffda" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- points -->
+  <circle cx="50" cy="358" r="4" fill="#64ffda" stroke="#112240" stroke-width="2"/>
+  <circle cx="123" cy="328" r="4" fill="#64ffda" stroke="#112240" stroke-width="2"/>
+  <circle cx="196" cy="290" r="4" fill="#64ffda" stroke="#112240" stroke-width="2"/>
+  <circle cx="269" cy="244" r="4" fill="#64ffda" stroke="#112240" stroke-width="2"/>
+  <circle cx="342" cy="262" r="4" fill="#64ffda" stroke="#112240" stroke-width="2"/>
+  <circle cx="415" cy="222" r="4" fill="#64ffda" stroke="#112240" stroke-width="2"/>
+  <circle cx="488" cy="234" r="4" fill="#64ffda" stroke="#112240" stroke-width="2"/>
+  <circle cx="555" cy="210" r="4" fill="#64ffda" stroke="#112240" stroke-width="2"/>
+
+  <!-- x labels -->
+  <text x="50"  y="374" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="10" fill="#8892b0">Mon</text>
+  <text x="123" y="374" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="10" fill="#8892b0">Tue</text>
+  <text x="196" y="374" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="10" fill="#8892b0">Wed</text>
+  <text x="269" y="374" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="10" fill="#8892b0">Thu</text>
+  <text x="342" y="374" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="10" fill="#8892b0">Fri</text>
+  <text x="415" y="374" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="10" fill="#8892b0">Sat</text>
+  <text x="488" y="374" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="10" fill="#8892b0">Sun</text>
+  <text x="555" y="374" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="10" fill="#64ffda">Today</text>
+
+  <!-- ─── Top Intents ─── -->
+  <rect x="598" y="182" width="272" height="200" rx="12" fill="#112240" stroke="rgba(100,255,218,0.1)" stroke-width="1"/>
+  <rect x="598" y="182" width="272" height="3" rx="1.5" fill="#4dd9bf" opacity="0.5"/>
+  <text x="616" y="206" font-family="Segoe UI,Arial,sans-serif" font-size="12" fill="#ccd6f6" font-weight="600">Top Intents</text>
+
+  <text x="616" y="228" font-family="Segoe UI,Arial,sans-serif" font-size="10.5" fill="#8892b0">Book Meeting</text>
+  <rect x="616" y="234" width="238" height="7" rx="3.5" fill="#172a45"/>
+  <rect x="616" y="234" width="190" height="7" rx="3.5" fill="#64ffda" opacity="0.65"/>
+  <text x="854" y="241" text-anchor="end" font-family="Segoe UI,Arial,sans-serif" font-size="10" fill="#64ffda">80%</text>
+
+  <text x="616" y="260" font-family="Segoe UI,Arial,sans-serif" font-size="10.5" fill="#8892b0">Get Info</text>
+  <rect x="616" y="266" width="238" height="7" rx="3.5" fill="#172a45"/>
+  <rect x="616" y="266" width="154" height="7" rx="3.5" fill="#4dd9bf" opacity="0.65"/>
+  <text x="854" y="273" text-anchor="end" font-family="Segoe UI,Arial,sans-serif" font-size="10" fill="#4dd9bf">65%</text>
+
+  <text x="616" y="292" font-family="Segoe UI,Arial,sans-serif" font-size="10.5" fill="#8892b0">Check Status</text>
+  <rect x="616" y="298" width="238" height="7" rx="3.5" fill="#172a45"/>
+  <rect x="616" y="298" width="119" height="7" rx="3.5" fill="#64ffda" opacity="0.5"/>
+  <text x="854" y="305" text-anchor="end" font-family="Segoe UI,Arial,sans-serif" font-size="10" fill="#64ffda">50%</text>
+
+  <text x="616" y="324" font-family="Segoe UI,Arial,sans-serif" font-size="10.5" fill="#8892b0">Generate Report</text>
+  <rect x="616" y="330" width="238" height="7" rx="3.5" fill="#172a45"/>
+  <rect x="616" y="330" width="83" height="7" rx="3.5" fill="#64ffda" opacity="0.4"/>
+  <text x="854" y="337" text-anchor="end" font-family="Segoe UI,Arial,sans-serif" font-size="10" fill="#64ffda">35%</text>
+
+  <text x="616" y="358" font-family="Segoe UI,Arial,sans-serif" font-size="10.5" fill="#8892b0">General Query</text>
+  <rect x="616" y="364" width="238" height="7" rx="3.5" fill="#172a45"/>
+  <rect x="616" y="364" width="60" height="7" rx="3.5" fill="#a8b2d1" opacity="0.5"/>
+  <text x="854" y="371" text-anchor="end" font-family="Segoe UI,Arial,sans-serif" font-size="10" fill="#a8b2d1">25%</text>
+
+  <!-- ─── Bottom cards ─── -->
+  <!-- System health -->
+  <rect x="30" y="400" width="200" height="144" rx="12" fill="#112240" stroke="rgba(100,255,218,0.1)" stroke-width="1"/>
+  <rect x="30" y="400" width="200" height="3" rx="1.5" fill="#64ffda"/>
+  <text x="48" y="424" font-family="Segoe UI,Arial,sans-serif" font-size="12" fill="#ccd6f6" font-weight="600">System Health</text>
+  <text x="48" y="446" font-family="Segoe UI,Arial,sans-serif" font-size="10.5" fill="#8892b0">OndeWo NLU</text>
+  <text x="220" y="446" text-anchor="end" font-family="Segoe UI,Arial,sans-serif" font-size="10.5" fill="#64ffda">● Online</text>
+  <text x="48" y="464" font-family="Segoe UI,Arial,sans-serif" font-size="10.5" fill="#8892b0">MCP Server</text>
+  <text x="220" y="464" text-anchor="end" font-family="Segoe UI,Arial,sans-serif" font-size="10.5" fill="#64ffda">● Online</text>
+  <text x="48" y="482" font-family="Segoe UI,Arial,sans-serif" font-size="10.5" fill="#8892b0">LLM Engine</text>
+  <text x="220" y="482" text-anchor="end" font-family="Segoe UI,Arial,sans-serif" font-size="10.5" fill="#64ffda">● Online</text>
+  <text x="48" y="500" font-family="Segoe UI,Arial,sans-serif" font-size="10.5" fill="#8892b0">Database</text>
+  <text x="220" y="500" text-anchor="end" font-family="Segoe UI,Arial,sans-serif" font-size="10.5" fill="#64ffda">● Online</text>
+  <text x="48" y="530" font-family="Segoe UI,Arial,sans-serif" font-size="10" fill="rgba(100,255,218,0.3)">Uptime: 99.98%</text>
+
+  <!-- Recent activity -->
+  <rect x="248" y="400" width="332" height="144" rx="12" fill="#112240" stroke="rgba(100,255,218,0.1)" stroke-width="1"/>
+  <rect x="248" y="400" width="332" height="3" rx="1.5" fill="#4dd9bf" opacity="0.5"/>
+  <text x="266" y="424" font-family="Segoe UI,Arial,sans-serif" font-size="12" fill="#ccd6f6" font-weight="600">Recent Activity</text>
+  <text x="266" y="446" font-family="Segoe UI,Arial,sans-serif" font-size="9.5" fill="rgba(100,255,218,0.4)">14:32:01</text>
+  <text x="328" y="446" font-family="Segoe UI,Arial,sans-serif" font-size="10.5" fill="#a8b2d1">Intent: BookMeeting (98.2%)</text>
+  <line x1="266" y1="452" x2="568" y2="452" stroke="rgba(100,255,218,0.05)" stroke-width="1"/>
+  <text x="266" y="466" font-family="Segoe UI,Arial,sans-serif" font-size="9.5" fill="rgba(100,255,218,0.4)">14:31:58</text>
+  <text x="328" y="466" font-family="Segoe UI,Arial,sans-serif" font-size="10.5" fill="#a8b2d1">LLM response sent (284ms)</text>
+  <line x1="266" y1="472" x2="568" y2="472" stroke="rgba(100,255,218,0.05)" stroke-width="1"/>
+  <text x="266" y="486" font-family="Segoe UI,Arial,sans-serif" font-size="9.5" fill="rgba(100,255,218,0.4)">14:31:45</text>
+  <text x="328" y="486" font-family="Segoe UI,Arial,sans-serif" font-size="10.5" fill="#a8b2d1">API: Calendar integration ✓</text>
+  <line x1="266" y1="492" x2="568" y2="492" stroke="rgba(100,255,218,0.05)" stroke-width="1"/>
+  <text x="266" y="506" font-family="Segoe UI,Arial,sans-serif" font-size="9.5" fill="rgba(100,255,218,0.4)">14:31:30</text>
+  <text x="328" y="506" font-family="Segoe UI,Arial,sans-serif" font-size="10.5" fill="#a8b2d1">Session: user_7842 connected</text>
+  <line x1="266" y1="512" x2="568" y2="512" stroke="rgba(100,255,218,0.05)" stroke-width="1"/>
+  <text x="266" y="530" font-family="Segoe UI,Arial,sans-serif" font-size="9.5" fill="rgba(100,255,218,0.4)">14:31:10</text>
+  <text x="328" y="530" font-family="Segoe UI,Arial,sans-serif" font-size="10.5" fill="#a8b2d1">MCP routing: GetStatus handler</text>
+
+  <!-- Tech stack -->
+  <rect x="598" y="400" width="272" height="144" rx="12" fill="#112240" stroke="rgba(100,255,218,0.1)" stroke-width="1"/>
+  <rect x="598" y="400" width="272" height="3" rx="1.5" fill="url(#gg5)" opacity="0.4"/>
+  <text x="616" y="424" font-family="Segoe UI,Arial,sans-serif" font-size="12" fill="#ccd6f6" font-weight="600">Tech Stack</text>
+  <text x="616" y="446" font-family="Segoe UI,Arial,sans-serif" font-size="10.5" fill="#8892b0">Platform  <tspan fill="#64ffda">OndeWo · Node.js</tspan></text>
+  <text x="616" y="464" font-family="Segoe UI,Arial,sans-serif" font-size="10.5" fill="#8892b0">Middleware  <tspan fill="#64ffda">MCP Server</tspan></text>
+  <text x="616" y="482" font-family="Segoe UI,Arial,sans-serif" font-size="10.5" fill="#8892b0">AI Engine  <tspan fill="#64ffda">LLM Transformer</tspan></text>
+  <text x="616" y="500" font-family="Segoe UI,Arial,sans-serif" font-size="10.5" fill="#8892b0">APIs  <tspan fill="#64ffda">REST · gRPC · WS</tspan></text>
+  <text x="616" y="518" font-family="Segoe UI,Arial,sans-serif" font-size="10.5" fill="#8892b0">DB  <tspan fill="#64ffda">MongoDB · Redis</tspan></text>
+  <text x="616" y="536" font-family="Segoe UI,Arial,sans-serif" font-size="10.5" fill="#8892b0">Auth  <tspan fill="#64ffda">JWT · OAuth2</tspan></text>
+</svg>

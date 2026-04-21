@@ -1,0 +1,193 @@
+<svg width="800" height="500" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif">
+  <defs>
+    <linearGradient id="sb4" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#071a2e"/>
+      <stop offset="100%" stop-color="#050f1c"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="500" fill="#0a0f1a"/>
+  <rect x="0" y="0" width="168" height="500" fill="url(#sb4)"/>
+  <rect x="166" y="0" width="2" height="500" fill="#1a2a3a"/>
+
+  <rect x="12" y="14" width="144" height="50" rx="10" fill="#00b4d8" fill-opacity="0.12"/>
+  <rect x="18" y="22" width="32" height="32" rx="8" fill="#00b4d8"/>
+  <text x="34" y="42" text-anchor="middle" fill="white" font-size="16" font-weight="bold">✚</text>
+  <text x="60" y="35" fill="#00b4d8" font-size="13" font-weight="bold">HIMS</text>
+  <text x="60" y="52" fill="#4a8fa8" font-size="9">Hospital Info System</text>
+
+  <text x="24" y="101" fill="#4a6e80" font-size="12">⊞  Dashboard</text>
+  <text x="24" y="135" fill="#4a6e80" font-size="12">👤  Patients</text>
+  <text x="24" y="169" fill="#4a6e80" font-size="12">📅  Appointments</text>
+  <text x="24" y="203" fill="#4a6e80" font-size="12">🏥  Wards &amp; Beds</text>
+  <text x="24" y="237" fill="#4a6e80" font-size="12">💊  Pharmacy</text>
+  <text x="24" y="271" fill="#4a6e80" font-size="12">🧪  Lab Results</text>
+  <rect x="8" y="288" width="152" height="34" rx="8" fill="#00b4d8" fill-opacity="0.18"/>
+  <rect x="8" y="288" width="3" height="34" rx="2" fill="#00b4d8"/>
+  <text x="24" y="310" fill="#00b4d8" font-size="12" font-weight="bold">₹  Billing</text>
+  <text x="24" y="344" fill="#4a6e80" font-size="12">📊  Reports</text>
+  <text x="24" y="378" fill="#4a6e80" font-size="12">⚙  Settings</text>
+
+  <rect x="8" y="442" width="152" height="48" rx="10" fill="#0d1f2d"/>
+  <circle cx="32" cy="466" r="15" fill="#00b4d8" fill-opacity="0.7"/>
+  <text x="32" y="471" text-anchor="middle" fill="white" font-size="12" font-weight="bold">R</text>
+  <text x="56" y="461" fill="#c9d1d9" font-size="12" font-weight="bold">Dr. Rani M.</text>
+  <text x="56" y="476" fill="#4a6e80" font-size="10">Administrator</text>
+
+  <!-- Header -->
+  <text x="186" y="36" fill="#c9d1d9" font-size="20" font-weight="bold">Billing &amp; Invoices</text>
+  <text x="186" y="55" fill="#4a6e80" font-size="12">Manage patient billing, payments and receipts</text>
+  <rect x="662" y="18" width="126" height="30" rx="8" fill="#00b4d8" fill-opacity="0.18"/>
+  <text x="725" y="37" text-anchor="middle" fill="#00b4d8" font-size="11">+ New Invoice</text>
+
+  <!-- Summary Cards -->
+  <rect x="184" y="66" width="142" height="72" rx="12" fill="#0d1f2d"/>
+  <rect x="184" y="66" width="142" height="3" rx="2" fill="#00b4d8"/>
+  <text x="200" y="92" fill="#4a6e80" font-size="10">Total Billed (Apr)</text>
+  <text x="200" y="118" fill="#00b4d8" font-size="20" font-weight="bold">₹ 18.4L</text>
+  <text x="200" y="132" fill="#4a6e80" font-size="9">▲ +11% vs Mar</text>
+
+  <rect x="334" y="66" width="142" height="72" rx="12" fill="#0d1f2d"/>
+  <rect x="334" y="66" width="142" height="3" rx="2" fill="#3fb950"/>
+  <text x="350" y="92" fill="#4a6e80" font-size="10">Collected (Apr)</text>
+  <text x="350" y="118" fill="#3fb950" font-size="20" font-weight="bold">₹ 14.2L</text>
+  <text x="350" y="132" fill="#4a6e80" font-size="9">77% collection rate</text>
+
+  <rect x="484" y="66" width="142" height="72" rx="12" fill="#0d1f2d"/>
+  <rect x="484" y="66" width="142" height="3" rx="2" fill="#ffd700"/>
+  <text x="500" y="92" fill="#4a6e80" font-size="10">Pending (Apr)</text>
+  <text x="500" y="118" fill="#ffd700" font-size="20" font-weight="bold">₹ 4.2L</text>
+  <text x="500" y="132" fill="#4a6e80" font-size="9">38 invoices pending</text>
+
+  <rect x="634" y="66" width="154" height="72" rx="12" fill="#0d1f2d"/>
+  <rect x="634" y="66" width="154" height="3" rx="2" fill="#e3342f"/>
+  <text x="650" y="92" fill="#4a6e80" font-size="10">Overdue (&gt;30 days)</text>
+  <text x="650" y="118" fill="#e3342f" font-size="20" font-weight="bold">₹ 1.1L</text>
+  <text x="650" y="132" fill="#4a6e80" font-size="9">12 invoices overdue</text>
+
+  <!-- Filter -->
+  <rect x="184" y="150" width="604" height="36" rx="10" fill="#0d1f2d"/>
+  <rect x="192" y="159" width="180" height="20" rx="6" fill="#162030"/>
+  <text x="202" y="173" fill="#4a6e80" font-size="11">🔍  Search invoice / patient...</text>
+  <rect x="380" y="159" width="100" height="20" rx="6" fill="#162030"/>
+  <text x="430" y="173" text-anchor="middle" fill="#8b949e" font-size="11">Status  ▾</text>
+  <rect x="488" y="159" width="100" height="20" rx="6" fill="#162030"/>
+  <text x="538" y="173" text-anchor="middle" fill="#8b949e" font-size="11">Apr 2026  ▾</text>
+  <rect x="596" y="159" width="100" height="20" rx="6" fill="#162030"/>
+  <text x="646" y="173" text-anchor="middle" fill="#8b949e" font-size="11">Department  ▾</text>
+  <rect x="704" y="159" width="76" height="20" rx="6" fill="#00b4d8" fill-opacity="0.22"/>
+  <text x="742" y="173" text-anchor="middle" fill="#00b4d8" font-size="10">↓ Export</text>
+
+  <!-- Table Header -->
+  <rect x="184" y="196" width="604" height="26" rx="6" fill="#0d1f2d"/>
+  <text x="198" y="213" fill="#4a6e80" font-size="9" font-weight="bold">INV #</text>
+  <text x="256" y="213" fill="#4a6e80" font-size="9" font-weight="bold">PATIENT</text>
+  <text x="388" y="213" fill="#4a6e80" font-size="9" font-weight="bold">DEPARTMENT</text>
+  <text x="490" y="213" fill="#4a6e80" font-size="9" font-weight="bold">DATE</text>
+  <text x="570" y="213" fill="#4a6e80" font-size="9" font-weight="bold">AMOUNT</text>
+  <text x="650" y="213" fill="#4a6e80" font-size="9" font-weight="bold">STATUS</text>
+  <text x="748" y="213" text-anchor="end" fill="#4a6e80" font-size="9" font-weight="bold">ACTION</text>
+
+  <!-- Row 1 -->
+  <rect x="184" y="224" width="604" height="32" rx="0" fill="#0a0f1a"/>
+  <rect x="184" y="255" width="604" height="1" fill="#1a2a3a"/>
+  <text x="198" y="244" fill="#00b4d8" font-size="11">INV-2604</text>
+  <circle cx="264" cy="240" r="10" fill="#0077b6" fill-opacity="0.3"/>
+  <text x="264" y="244" text-anchor="middle" fill="#00b4d8" font-size="9">S</text>
+  <text x="280" y="240" fill="#c9d1d9" font-size="11">Sunita Patil</text>
+  <text x="280" y="252" fill="#4a6e80" font-size="9">P-00421</text>
+  <text x="390" y="244" fill="#c9d1d9" font-size="11">General</text>
+  <text x="492" y="244" fill="#8b949e" font-size="11">20 Apr</text>
+  <text x="572" y="244" fill="#c9d1d9" font-size="12" font-weight="bold">₹ 2,800</text>
+  <rect x="648" y="230" width="60" height="18" rx="6" fill="#3fb950" fill-opacity="0.14"/>
+  <text x="678" y="243" text-anchor="middle" fill="#3fb950" font-size="9">Paid</text>
+  <text x="746" y="244" text-anchor="end" fill="#00b4d8" font-size="11">View</text>
+
+  <!-- Row 2 -->
+  <rect x="184" y="256" width="604" height="32" rx="0" fill="#0d1f2d"/>
+  <rect x="184" y="287" width="604" height="1" fill="#1a2a3a"/>
+  <text x="198" y="276" fill="#00b4d8" font-size="11">INV-2603</text>
+  <circle cx="264" cy="272" r="10" fill="#0096a8" fill-opacity="0.3"/>
+  <text x="264" y="276" text-anchor="middle" fill="#00e0f0" font-size="9">R</text>
+  <text x="280" y="272" fill="#c9d1d9" font-size="11">Ramesh Joshi</text>
+  <text x="280" y="284" fill="#4a6e80" font-size="9">P-00422</text>
+  <text x="390" y="276" fill="#c9d1d9" font-size="11">Cardiology</text>
+  <text x="492" y="276" fill="#8b949e" font-size="11">19 Apr</text>
+  <text x="572" y="276" fill="#c9d1d9" font-size="12" font-weight="bold">₹ 12,500</text>
+  <rect x="648" y="262" width="60" height="18" rx="6" fill="#ffd700" fill-opacity="0.12"/>
+  <text x="678" y="275" text-anchor="middle" fill="#ffd700" font-size="9">Pending</text>
+  <text x="746" y="276" text-anchor="end" fill="#00b4d8" font-size="11">View</text>
+
+  <!-- Row 3 -->
+  <rect x="184" y="288" width="604" height="32" rx="0" fill="#0a0f1a"/>
+  <rect x="184" y="319" width="604" height="1" fill="#1a2a3a"/>
+  <text x="198" y="308" fill="#00b4d8" font-size="11">INV-2602</text>
+  <circle cx="264" cy="304" r="10" fill="#c05621" fill-opacity="0.3"/>
+  <text x="264" y="308" text-anchor="middle" fill="#ffa040" font-size="9">K</text>
+  <text x="280" y="304" fill="#c9d1d9" font-size="11">Kavitha Rao</text>
+  <text x="280" y="316" fill="#4a6e80" font-size="9">P-00425</text>
+  <text x="390" y="308" fill="#c9d1d9" font-size="11">Orthopaedics</text>
+  <text x="492" y="308" fill="#8b949e" font-size="11">19 Apr</text>
+  <text x="572" y="308" fill="#c9d1d9" font-size="12" font-weight="bold">₹ 45,000</text>
+  <rect x="648" y="294" width="60" height="18" rx="6" fill="#e3342f" fill-opacity="0.14"/>
+  <text x="678" y="307" text-anchor="middle" fill="#e3342f" font-size="9">Overdue</text>
+  <text x="746" y="308" text-anchor="end" fill="#00b4d8" font-size="11">View</text>
+
+  <!-- Row 4 -->
+  <rect x="184" y="320" width="604" height="32" rx="0" fill="#0d1f2d"/>
+  <rect x="184" y="351" width="604" height="1" fill="#1a2a3a"/>
+  <text x="198" y="340" fill="#00b4d8" font-size="11">INV-2601</text>
+  <circle cx="264" cy="336" r="10" fill="#1b7a34" fill-opacity="0.3"/>
+  <text x="264" y="340" text-anchor="middle" fill="#3fb950" font-size="9">V</text>
+  <text x="280" y="336" fill="#c9d1d9" font-size="11">Vikas Gupta</text>
+  <text x="280" y="348" fill="#4a6e80" font-size="9">P-00424</text>
+  <text x="390" y="340" fill="#c9d1d9" font-size="11">Orthopaedics</text>
+  <text x="492" y="340" fill="#8b949e" font-size="11">18 Apr</text>
+  <text x="572" y="340" fill="#c9d1d9" font-size="12" font-weight="bold">₹ 28,000</text>
+  <rect x="648" y="326" width="60" height="18" rx="6" fill="#3fb950" fill-opacity="0.14"/>
+  <text x="678" y="339" text-anchor="middle" fill="#3fb950" font-size="9">Paid</text>
+  <text x="746" y="340" text-anchor="end" fill="#00b4d8" font-size="11">View</text>
+
+  <!-- Row 5 -->
+  <rect x="184" y="352" width="604" height="32" rx="0" fill="#0a0f1a"/>
+  <rect x="184" y="383" width="604" height="1" fill="#1a2a3a"/>
+  <text x="198" y="372" fill="#00b4d8" font-size="11">INV-2600</text>
+  <circle cx="264" cy="368" r="10" fill="#0077b6" fill-opacity="0.3"/>
+  <text x="264" y="372" text-anchor="middle" fill="#00b4d8" font-size="9">P</text>
+  <text x="280" y="368" fill="#c9d1d9" font-size="11">Pradeep Shah</text>
+  <text x="280" y="380" fill="#4a6e80" font-size="9">P-00426</text>
+  <text x="390" y="372" fill="#c9d1d9" font-size="11">General</text>
+  <text x="492" y="372" fill="#8b949e" font-size="11">17 Apr</text>
+  <text x="572" y="372" fill="#c9d1d9" font-size="12" font-weight="bold">₹ 4,200</text>
+  <rect x="648" y="358" width="60" height="18" rx="6" fill="#3fb950" fill-opacity="0.14"/>
+  <text x="678" y="371" text-anchor="middle" fill="#3fb950" font-size="9">Paid</text>
+  <text x="746" y="372" text-anchor="end" fill="#00b4d8" font-size="11">View</text>
+
+  <!-- Row 6 -->
+  <rect x="184" y="384" width="604" height="32" rx="0" fill="#0d1f2d"/>
+  <text x="198" y="404" fill="#00b4d8" font-size="11">INV-2599</text>
+  <circle cx="264" cy="400" r="10" fill="#0096a8" fill-opacity="0.3"/>
+  <text x="264" y="404" text-anchor="middle" fill="#00e0f0" font-size="9">M</text>
+  <text x="280" y="400" fill="#c9d1d9" font-size="11">Meena Desai</text>
+  <text x="280" y="412" fill="#4a6e80" font-size="9">P-00427</text>
+  <text x="390" y="404" fill="#c9d1d9" font-size="11">Gynaecology</text>
+  <text x="492" y="404" fill="#8b949e" font-size="11">16 Apr</text>
+  <text x="572" y="404" fill="#c9d1d9" font-size="12" font-weight="bold">₹ 6,500</text>
+  <rect x="648" y="390" width="60" height="18" rx="6" fill="#ffd700" fill-opacity="0.12"/>
+  <text x="678" y="403" text-anchor="middle" fill="#ffd700" font-size="9">Pending</text>
+  <text x="746" y="404" text-anchor="end" fill="#00b4d8" font-size="11">View</text>
+
+  <!-- Pagination -->
+  <rect x="184" y="452" width="604" height="34" rx="8" fill="#0d1f2d"/>
+  <text x="200" y="473" fill="#4a6e80" font-size="11">Showing 6 of 284 invoices</text>
+  <rect x="634" y="460" width="26" height="18" rx="5" fill="#162030"/>
+  <text x="647" y="473" text-anchor="middle" fill="#8b949e" font-size="12">‹</text>
+  <rect x="666" y="460" width="26" height="18" rx="5" fill="#00b4d8" fill-opacity="0.25"/>
+  <text x="679" y="473" text-anchor="middle" fill="#00b4d8" font-size="11">1</text>
+  <rect x="698" y="460" width="26" height="18" rx="5" fill="#162030"/>
+  <text x="711" y="473" text-anchor="middle" fill="#8b949e" font-size="11">2</text>
+  <rect x="730" y="460" width="26" height="18" rx="5" fill="#162030"/>
+  <text x="743" y="473" text-anchor="middle" fill="#8b949e" font-size="11">3</text>
+  <rect x="762" y="460" width="26" height="18" rx="5" fill="#162030"/>
+  <text x="775" y="473" text-anchor="middle" fill="#8b949e" font-size="12">›</text>
+</svg>

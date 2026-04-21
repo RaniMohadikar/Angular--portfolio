@@ -1,0 +1,165 @@
+<svg width="800" height="500" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif">
+  <defs>
+    <linearGradient id="sidebar4" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0f1923"/>
+      <stop offset="100%" stop-color="#0a1118"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="500" fill="#0d1117"/>
+
+  <!-- Sidebar -->
+  <rect x="0" y="0" width="170" height="500" fill="url(#sidebar4)"/>
+  <rect x="168" y="0" width="2" height="500" fill="#21262d"/>
+  <rect x="15" y="16" width="140" height="48" rx="10" fill="#1f6feb" fill-opacity="0.15"/>
+  <rect x="22" y="26" width="28" height="28" rx="6" fill="#1f6feb"/>
+  <text x="36" y="45" text-anchor="middle" fill="white" font-size="14" font-weight="bold">B</text>
+  <text x="60" y="38" fill="#58a6ff" font-size="13" font-weight="bold">BankPay</text>
+  <text x="60" y="54" fill="#8b949e" font-size="9">Proclink Solutions</text>
+
+  <text x="48" y="104" fill="#8b949e" font-size="12">Dashboard</text>
+  <text x="48" y="142" fill="#8b949e" font-size="12">My Cards</text>
+
+  <rect x="10" y="158" width="150" height="36" rx="8" fill="#1f6feb" fill-opacity="0.2"/>
+  <rect x="10" y="158" width="3" height="36" rx="2" fill="#58a6ff"/>
+  <text x="48" y="181" fill="#58a6ff" font-size="12" font-weight="bold">Transactions</text>
+
+  <text x="48" y="219" fill="#8b949e" font-size="12">Transfer</text>
+  <text x="48" y="257" fill="#8b949e" font-size="12">E-Wallet</text>
+  <text x="48" y="295" fill="#8b949e" font-size="12">Analytics</text>
+  <text x="48" y="333" fill="#8b949e" font-size="12">Settings</text>
+
+  <rect x="10" y="442" width="150" height="48" rx="10" fill="#21262d"/>
+  <circle cx="36" cy="466" r="16" fill="#1f6feb"/>
+  <text x="36" y="471" text-anchor="middle" fill="white" font-size="13" font-weight="bold">R</text>
+  <text x="60" y="461" fill="#c9d1d9" font-size="12" font-weight="bold">Rani M.</text>
+  <text x="60" y="476" fill="#8b949e" font-size="10">Sr. Engineer</text>
+
+  <!-- Header -->
+  <text x="192" y="38" fill="#c9d1d9" font-size="20" font-weight="bold">Transaction History</text>
+  <text x="192" y="57" fill="#8b949e" font-size="12">All account activity in one place</text>
+  <rect x="666" y="20" width="122" height="32" rx="8" fill="#1f6feb" fill-opacity="0.2"/>
+  <text x="727" y="40" text-anchor="middle" fill="#58a6ff" font-size="12">↓ Export CSV</text>
+
+  <!-- Summary Cards -->
+  <rect x="184" y="68" width="184" height="72" rx="12" fill="#161b22"/>
+  <rect x="184" y="68" width="184" height="3" rx="2" fill="#3fb950"/>
+  <text x="200" y="94" fill="#8b949e" font-size="11">Total Credits (Apr)</text>
+  <text x="200" y="118" fill="#3fb950" font-size="20" font-weight="bold">₹ 85,000</text>
+
+  <rect x="378" y="68" width="184" height="72" rx="12" fill="#161b22"/>
+  <rect x="378" y="68" width="184" height="3" rx="2" fill="#e3342f"/>
+  <text x="394" y="94" fill="#8b949e" font-size="11">Total Debits (Apr)</text>
+  <text x="394" y="118" fill="#e3342f" font-size="20" font-weight="bold">₹ 32,450</text>
+
+  <rect x="572" y="68" width="216" height="72" rx="12" fill="#161b22"/>
+  <rect x="572" y="68" width="216" height="3" rx="2" fill="#58a6ff"/>
+  <text x="588" y="94" fill="#8b949e" font-size="11">Net Balance Change</text>
+  <text x="588" y="118" fill="#58a6ff" font-size="20" font-weight="bold">+ ₹ 52,550</text>
+
+  <!-- Filter Bar -->
+  <rect x="184" y="152" width="604" height="40" rx="10" fill="#161b22"/>
+  <!-- Date filter -->
+  <rect x="194" y="162" width="130" height="22" rx="6" fill="#21262d"/>
+  <text x="259" y="177" text-anchor="middle" fill="#c9d1d9" font-size="11">Apr 2026  ▾</text>
+  <!-- Type filter -->
+  <rect x="334" y="162" width="100" height="22" rx="6" fill="#21262d"/>
+  <text x="384" y="177" text-anchor="middle" fill="#c9d1d9" font-size="11">All Types  ▾</text>
+  <!-- Account filter -->
+  <rect x="444" y="162" width="130" height="22" rx="6" fill="#21262d"/>
+  <text x="509" y="177" text-anchor="middle" fill="#c9d1d9" font-size="11">All Accounts  ▾</text>
+  <!-- Search -->
+  <rect x="584" y="162" width="140" height="22" rx="6" fill="#21262d"/>
+  <text x="598" y="177" fill="#8b949e" font-size="11">🔍 Search...</text>
+  <!-- Apply -->
+  <rect x="736" y="162" width="44" height="22" rx="6" fill="#1f6feb" fill-opacity="0.4"/>
+  <text x="758" y="177" text-anchor="middle" fill="#58a6ff" font-size="10">Apply</text>
+
+  <!-- Table Header -->
+  <rect x="184" y="202" width="604" height="28" rx="6" fill="#21262d"/>
+  <text x="200" y="220" fill="#8b949e" font-size="10" font-weight="bold">DATE</text>
+  <text x="280" y="220" fill="#8b949e" font-size="10" font-weight="bold">DESCRIPTION</text>
+  <text x="470" y="220" fill="#8b949e" font-size="10" font-weight="bold">ACCOUNT</text>
+  <text x="590" y="220" fill="#8b949e" font-size="10" font-weight="bold">TYPE</text>
+  <text x="782" y="220" text-anchor="end" fill="#8b949e" font-size="10" font-weight="bold">AMOUNT</text>
+
+  <!-- Transaction Rows -->
+  <!-- Row 1 -->
+  <rect x="184" y="234" width="604" height="34" rx="0" fill="#0d1117"/>
+  <rect x="184" y="267" width="604" height="1" fill="#21262d"/>
+  <text x="200" y="256" fill="#8b949e" font-size="10">15 Apr 2026</text>
+  <text x="280" y="252" fill="#c9d1d9" font-size="12">Salary Credit - Apr 2026</text>
+  <text x="280" y="266" fill="#8b949e" font-size="9">Ref: SAL-2026-04-001</text>
+  <text x="470" y="256" fill="#8b949e" font-size="11">Savings •••4521</text>
+  <rect x="590" y="244" width="54" height="18" rx="6" fill="#3fb950" fill-opacity="0.15"/>
+  <text x="617" y="257" text-anchor="middle" fill="#3fb950" font-size="9">Credit</text>
+  <text x="782" y="256" text-anchor="end" fill="#3fb950" font-size="13" font-weight="bold">+ ₹65,000</text>
+
+  <!-- Row 2 -->
+  <rect x="184" y="268" width="604" height="34" rx="0" fill="#161b22"/>
+  <rect x="184" y="301" width="604" height="1" fill="#21262d"/>
+  <text x="200" y="290" fill="#8b949e" font-size="10">14 Apr 2026</text>
+  <text x="280" y="286" fill="#c9d1d9" font-size="12">Amazon India - Order #114</text>
+  <text x="280" y="300" fill="#8b949e" font-size="9">Ref: AMZ-2026-4521</text>
+  <text x="470" y="290" fill="#8b949e" font-size="11">E-Wallet</text>
+  <rect x="590" y="278" width="54" height="18" rx="6" fill="#e3342f" fill-opacity="0.15"/>
+  <text x="617" y="291" text-anchor="middle" fill="#e3342f" font-size="9">Debit</text>
+  <text x="782" y="290" text-anchor="end" fill="#e3342f" font-size="13" font-weight="bold">- ₹3,499</text>
+
+  <!-- Row 3 -->
+  <rect x="184" y="302" width="604" height="34" rx="0" fill="#0d1117"/>
+  <rect x="184" y="335" width="604" height="1" fill="#21262d"/>
+  <text x="200" y="324" fill="#8b949e" font-size="10">12 Apr 2026</text>
+  <text x="280" y="320" fill="#c9d1d9" font-size="12">MakeMyTrip - Flight Booking</text>
+  <text x="280" y="334" fill="#8b949e" font-size="9">Ref: MMT-BKG-98876</text>
+  <text x="470" y="324" fill="#8b949e" font-size="11">Credit Card •4521</text>
+  <rect x="590" y="312" width="54" height="18" rx="6" fill="#e3342f" fill-opacity="0.15"/>
+  <text x="617" y="325" text-anchor="middle" fill="#e3342f" font-size="9">Debit</text>
+  <text x="782" y="324" text-anchor="end" fill="#e3342f" font-size="13" font-weight="bold">- ₹12,500</text>
+
+  <!-- Row 4 -->
+  <rect x="184" y="336" width="604" height="34" rx="0" fill="#161b22"/>
+  <rect x="184" y="369" width="604" height="1" fill="#21262d"/>
+  <text x="200" y="358" fill="#8b949e" font-size="10">10 Apr 2026</text>
+  <text x="280" y="354" fill="#c9d1d9" font-size="12">MSEDCL Electricity Bill</text>
+  <text x="280" y="368" fill="#8b949e" font-size="9">Ref: MSEDCL-04-2026</text>
+  <text x="470" y="358" fill="#8b949e" font-size="11">E-Wallet</text>
+  <rect x="590" y="346" width="54" height="18" rx="6" fill="#e3342f" fill-opacity="0.15"/>
+  <text x="617" y="359" text-anchor="middle" fill="#e3342f" font-size="9">Debit</text>
+  <text x="782" y="358" text-anchor="end" fill="#e3342f" font-size="13" font-weight="bold">- ₹1,200</text>
+
+  <!-- Row 5 -->
+  <rect x="184" y="370" width="604" height="34" rx="0" fill="#0d1117"/>
+  <rect x="184" y="403" width="604" height="1" fill="#21262d"/>
+  <text x="200" y="392" fill="#8b949e" font-size="10">08 Apr 2026</text>
+  <text x="280" y="388" fill="#c9d1d9" font-size="12">NEFT - Rent Payment</text>
+  <text x="280" y="402" fill="#8b949e" font-size="9">Ref: NEFT-20260408-001</text>
+  <text x="470" y="392" fill="#8b949e" font-size="11">Savings •••4521</text>
+  <rect x="590" y="380" width="54" height="18" rx="6" fill="#e3342f" fill-opacity="0.15"/>
+  <text x="617" y="393" text-anchor="middle" fill="#e3342f" font-size="9">Debit</text>
+  <text x="782" y="392" text-anchor="end" fill="#e3342f" font-size="13" font-weight="bold">- ₹15,000</text>
+
+  <!-- Row 6 -->
+  <rect x="184" y="404" width="604" height="34" rx="0" fill="#161b22"/>
+  <text x="200" y="426" fill="#8b949e" font-size="10">05 Apr 2026</text>
+  <text x="280" y="422" fill="#c9d1d9" font-size="12">Cashback - Card Reward</text>
+  <text x="280" y="436" fill="#8b949e" font-size="9">Ref: CB-HDFC-2026-042</text>
+  <text x="470" y="426" fill="#8b949e" font-size="11">Credit Card •4521</text>
+  <rect x="590" y="414" width="54" height="18" rx="6" fill="#3fb950" fill-opacity="0.15"/>
+  <text x="617" y="427" text-anchor="middle" fill="#3fb950" font-size="9">Credit</text>
+  <text x="782" y="426" text-anchor="end" fill="#3fb950" font-size="13" font-weight="bold">+ ₹250</text>
+
+  <!-- Pagination -->
+  <rect x="184" y="452" width="604" height="36" rx="8" fill="#161b22"/>
+  <text x="204" y="474" fill="#8b949e" font-size="11">Showing 6 of 124 transactions</text>
+  <rect x="636" y="460" width="28" height="20" rx="5" fill="#21262d"/>
+  <text x="650" y="474" text-anchor="middle" fill="#8b949e" font-size="12">‹</text>
+  <rect x="670" y="460" width="28" height="20" rx="5" fill="#1f6feb" fill-opacity="0.3"/>
+  <text x="684" y="474" text-anchor="middle" fill="#58a6ff" font-size="11">1</text>
+  <rect x="704" y="460" width="28" height="20" rx="5" fill="#21262d"/>
+  <text x="718" y="474" text-anchor="middle" fill="#8b949e" font-size="11">2</text>
+  <rect x="738" y="460" width="28" height="20" rx="5" fill="#21262d"/>
+  <text x="752" y="474" text-anchor="middle" fill="#8b949e" font-size="11">3</text>
+  <rect x="772" y="460" width="28" height="20" rx="5" fill="#21262d"/>
+  <text x="786" y="474" text-anchor="middle" fill="#8b949e" font-size="12">›</text>
+</svg>

@@ -1,0 +1,153 @@
+<svg width="800" height="500" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif">
+  <defs>
+    <linearGradient id="sidebar5" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0f1923"/>
+      <stop offset="100%" stop-color="#0a1118"/>
+    </linearGradient>
+    <linearGradient id="transferBtn" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1f6feb"/>
+      <stop offset="100%" stop-color="#388bfd"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="500" fill="#0d1117"/>
+
+  <!-- Sidebar -->
+  <rect x="0" y="0" width="170" height="500" fill="url(#sidebar5)"/>
+  <rect x="168" y="0" width="2" height="500" fill="#21262d"/>
+  <rect x="15" y="16" width="140" height="48" rx="10" fill="#1f6feb" fill-opacity="0.15"/>
+  <rect x="22" y="26" width="28" height="28" rx="6" fill="#1f6feb"/>
+  <text x="36" y="45" text-anchor="middle" fill="white" font-size="14" font-weight="bold">B</text>
+  <text x="60" y="38" fill="#58a6ff" font-size="13" font-weight="bold">BankPay</text>
+  <text x="60" y="54" fill="#8b949e" font-size="9">Proclink Solutions</text>
+
+  <text x="48" y="104" fill="#8b949e" font-size="12">Dashboard</text>
+  <text x="48" y="142" fill="#8b949e" font-size="12">My Cards</text>
+  <text x="48" y="181" fill="#8b949e" font-size="12">Transactions</text>
+
+  <rect x="10" y="196" width="150" height="36" rx="8" fill="#1f6feb" fill-opacity="0.2"/>
+  <rect x="10" y="196" width="3" height="36" rx="2" fill="#58a6ff"/>
+  <text x="48" y="219" fill="#58a6ff" font-size="12" font-weight="bold">Transfer</text>
+
+  <text x="48" y="257" fill="#8b949e" font-size="12">E-Wallet</text>
+  <text x="48" y="295" fill="#8b949e" font-size="12">Analytics</text>
+  <text x="48" y="333" fill="#8b949e" font-size="12">Settings</text>
+
+  <rect x="10" y="442" width="150" height="48" rx="10" fill="#21262d"/>
+  <circle cx="36" cy="466" r="16" fill="#1f6feb"/>
+  <text x="36" y="471" text-anchor="middle" fill="white" font-size="13" font-weight="bold">R</text>
+  <text x="60" y="461" fill="#c9d1d9" font-size="12" font-weight="bold">Rani M.</text>
+  <text x="60" y="476" fill="#8b949e" font-size="10">Sr. Engineer</text>
+
+  <!-- Header -->
+  <text x="192" y="38" fill="#c9d1d9" font-size="20" font-weight="bold">Money Transfer</text>
+  <text x="192" y="57" fill="#8b949e" font-size="12">Transfer funds securely across accounts and banks</text>
+
+  <!-- Transfer Mode Tabs -->
+  <rect x="184" y="68" width="380" height="38" rx="10" fill="#161b22"/>
+  <rect x="188" y="72" width="90" height="30" rx="8" fill="#1f6feb" fill-opacity="0.3"/>
+  <text x="233" y="91" text-anchor="middle" fill="#58a6ff" font-size="12" font-weight="bold">NEFT</text>
+  <text x="318" y="91" text-anchor="middle" fill="#8b949e" font-size="12">RTGS</text>
+  <text x="398" y="91" text-anchor="middle" fill="#8b949e" font-size="12">IMPS</text>
+  <text x="478" y="91" text-anchor="middle" fill="#8b949e" font-size="12">UPI</text>
+  <text x="548" y="91" text-anchor="middle" fill="#8b949e" font-size="12">Own A/C</text>
+
+  <!-- Transfer Form -->
+  <rect x="184" y="116" width="380" height="358" rx="14" fill="#161b22"/>
+
+  <!-- From Account -->
+  <text x="204" y="145" fill="#8b949e" font-size="11">From Account</text>
+  <rect x="204" y="152" width="340" height="46" rx="10" fill="#21262d"/>
+  <rect x="210" y="162" width="26" height="26" rx="6" fill="#1f6feb"/>
+  <text x="223" y="179" text-anchor="middle" fill="white" font-size="11" font-weight="bold">S</text>
+  <text x="246" y="170" fill="#c9d1d9" font-size="12" font-weight="bold">Savings Account  •••• 4521</text>
+  <text x="246" y="185" fill="#8b949e" font-size="10">Available: ₹ 2,34,120</text>
+  <text x="538" y="178" text-anchor="end" fill="#58a6ff" font-size="18">▾</text>
+
+  <!-- Swap icon -->
+  <circle cx="374" cy="218" r="16" fill="#21262d"/>
+  <text x="374" y="223" text-anchor="middle" fill="#58a6ff" font-size="16">⇅</text>
+
+  <!-- To Account / Beneficiary -->
+  <text x="204" y="246" fill="#8b949e" font-size="11">To Beneficiary</text>
+  <rect x="204" y="253" width="340" height="46" rx="10" fill="#21262d"/>
+  <rect x="210" y="263" width="26" height="26" rx="6" fill="#3fb950" fill-opacity="0.3"/>
+  <text x="223" y="280" text-anchor="middle" fill="#3fb950" font-size="11" font-weight="bold">A</text>
+  <text x="246" y="271" fill="#c9d1d9" font-size="12" font-weight="bold">Ankit Sharma  ·  SBI  •••• 9210</text>
+  <text x="246" y="286" fill="#8b949e" font-size="10">IFSC: SBIN0009210  ·  Mumbai</text>
+  <text x="538" y="279" text-anchor="end" fill="#58a6ff" font-size="18">▾</text>
+
+  <!-- Amount -->
+  <text x="204" y="318" fill="#8b949e" font-size="11">Transfer Amount</text>
+  <rect x="204" y="325" width="340" height="46" rx="10" fill="#21262d"/>
+  <text x="220" y="353" fill="#8b949e" font-size="14">₹</text>
+  <text x="240" y="355" fill="white" font-size="22" font-weight="bold">25,000</text>
+  <rect x="450" y="333" width="84" height="30" rx="8" fill="#1f6feb" fill-opacity="0.15"/>
+  <text x="492" y="352" text-anchor="middle" fill="#58a6ff" font-size="11">Max Amount</text>
+
+  <!-- Remarks -->
+  <text x="204" y="386" fill="#8b949e" font-size="11">Remarks (Optional)</text>
+  <rect x="204" y="393" width="340" height="36" rx="10" fill="#21262d"/>
+  <text x="220" y="415" fill="#8b949e" font-size="11">Monthly rent payment</text>
+
+  <!-- Schedule -->
+  <rect x="204" y="436" width="160" height="28" rx="8" fill="#21262d"/>
+  <text x="284" y="454" text-anchor="middle" fill="#8b949e" font-size="11">⊕ Schedule Transfer</text>
+
+  <!-- Transfer Button -->
+  <rect x="374" y="436" width="170" height="28" rx="8" fill="url(#transferBtn)"/>
+  <text x="459" y="454" text-anchor="middle" fill="white" font-size="12" font-weight="bold">Transfer Now  →</text>
+
+  <!-- Right Panel: Recent Beneficiaries -->
+  <rect x="578" y="68" width="210" height="210" rx="14" fill="#161b22"/>
+  <text x="598" y="96" fill="#c9d1d9" font-size="13" font-weight="bold">Recent Beneficiaries</text>
+  <rect x="590" y="104" width="186" height="1" fill="#21262d"/>
+
+  <!-- Beneficiary 1 -->
+  <rect x="590" y="114" width="186" height="44" rx="8" fill="#21262d"/>
+  <circle cx="612" cy="136" r="14" fill="#3fb950" fill-opacity="0.2"/>
+  <text x="612" y="141" text-anchor="middle" fill="#3fb950" font-size="13" font-weight="bold">A</text>
+  <text x="632" y="132" fill="#c9d1d9" font-size="11" font-weight="bold">Ankit Sharma</text>
+  <text x="632" y="147" fill="#8b949e" font-size="9">SBI  ·  •••• 9210</text>
+  <text x="770" y="140" text-anchor="end" fill="#58a6ff" font-size="11">Send</text>
+
+  <!-- Beneficiary 2 -->
+  <rect x="590" y="164" width="186" height="44" rx="8" fill="#21262d"/>
+  <circle cx="612" cy="186" r="14" fill="#1f6feb" fill-opacity="0.2"/>
+  <text x="612" y="191" text-anchor="middle" fill="#58a6ff" font-size="13" font-weight="bold">P</text>
+  <text x="632" y="182" fill="#c9d1d9" font-size="11" font-weight="bold">Priya Desai</text>
+  <text x="632" y="197" fill="#8b949e" font-size="9">HDFC  ·  •••• 3312</text>
+  <text x="770" y="190" text-anchor="end" fill="#58a6ff" font-size="11">Send</text>
+
+  <!-- Beneficiary 3 -->
+  <rect x="590" y="214" width="186" height="44" rx="8" fill="#21262d"/>
+  <circle cx="612" cy="236" r="14" fill="#ffd700" fill-opacity="0.15"/>
+  <text x="612" y="241" text-anchor="middle" fill="#ffd700" font-size="13" font-weight="bold">S</text>
+  <text x="632" y="232" fill="#c9d1d9" font-size="11" font-weight="bold">Suresh Kumar</text>
+  <text x="632" y="247" fill="#8b949e" font-size="9">ICICI  ·  •••• 7720</text>
+  <text x="770" y="240" text-anchor="end" fill="#58a6ff" font-size="11">Send</text>
+
+  <rect x="590" y="264" width="186" height="28" rx="8" fill="#1f6feb" fill-opacity="0.1"/>
+  <text x="683" y="282" text-anchor="middle" fill="#58a6ff" font-size="11">+ Add Beneficiary</text>
+
+  <!-- Transfer Limits -->
+  <rect x="578" y="290" width="210" height="128" rx="14" fill="#161b22"/>
+  <text x="598" y="316" fill="#c9d1d9" font-size="13" font-weight="bold">Transfer Limits</text>
+  <rect x="590" y="324" width="186" height="1" fill="#21262d"/>
+  <text x="598" y="344" fill="#8b949e" font-size="11">NEFT Daily Limit</text>
+  <text x="778" y="344" text-anchor="end" fill="#c9d1d9" font-size="12" font-weight="bold">₹ 10,00,000</text>
+  <text x="598" y="366" fill="#8b949e" font-size="11">Used Today</text>
+  <text x="778" y="366" text-anchor="end" fill="#e3342f" font-size="12" font-weight="bold">₹ 25,000</text>
+  <text x="598" y="388" fill="#8b949e" font-size="11">Remaining</text>
+  <text x="778" y="388" text-anchor="end" fill="#3fb950" font-size="12" font-weight="bold">₹ 9,75,000</text>
+  <rect x="590" y="396" width="186" height="6" rx="3" fill="#21262d"/>
+  <rect x="590" y="396" width="5" height="6" rx="3" fill="#3fb950"/>
+
+  <!-- OAuth2 Security Badge -->
+  <rect x="578" y="430" width="210" height="48" rx="14" fill="#161b22"/>
+  <rect x="578" y="430" width="210" height="48" rx="14" fill="#3fb950" fill-opacity="0.04"/>
+  <circle cx="602" cy="454" r="14" fill="#3fb950" fill-opacity="0.15"/>
+  <text x="602" y="459" text-anchor="middle" fill="#3fb950" font-size="14">🔒</text>
+  <text x="624" y="449" fill="#c9d1d9" font-size="11" font-weight="bold">OAuth2 Secured</text>
+  <text x="624" y="464" fill="#8b949e" font-size="9">256-bit AES Encryption · OIDC Auth</text>
+</svg>

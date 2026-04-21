@@ -1,0 +1,153 @@
+<svg width="800" height="500" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif">
+  <defs>
+    <linearGradient id="sb5" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#071a2e"/>
+      <stop offset="100%" stop-color="#050f1c"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="500" fill="#0a0f1a"/>
+  <rect x="0" y="0" width="168" height="500" fill="url(#sb5)"/>
+  <rect x="166" y="0" width="2" height="500" fill="#1a2a3a"/>
+
+  <rect x="12" y="14" width="144" height="50" rx="10" fill="#00b4d8" fill-opacity="0.12"/>
+  <rect x="18" y="22" width="32" height="32" rx="8" fill="#00b4d8"/>
+  <text x="34" y="42" text-anchor="middle" fill="white" font-size="16" font-weight="bold">✚</text>
+  <text x="60" y="35" fill="#00b4d8" font-size="13" font-weight="bold">HIMS</text>
+  <text x="60" y="52" fill="#4a8fa8" font-size="9">Hospital Info System</text>
+
+  <text x="24" y="101" fill="#4a6e80" font-size="12">⊞  Dashboard</text>
+  <rect x="8" y="118" width="152" height="34" rx="8" fill="#00b4d8" fill-opacity="0.18"/>
+  <rect x="8" y="118" width="3" height="34" rx="2" fill="#00b4d8"/>
+  <text x="24" y="140" fill="#00b4d8" font-size="12" font-weight="bold">👤  Patients</text>
+  <text x="24" y="174" fill="#4a6e80" font-size="12">📅  Appointments</text>
+  <text x="24" y="208" fill="#4a6e80" font-size="12">🏥  Wards &amp; Beds</text>
+  <text x="24" y="242" fill="#4a6e80" font-size="12">💊  Pharmacy</text>
+  <text x="24" y="276" fill="#4a6e80" font-size="12">🧪  Lab Results</text>
+  <text x="24" y="310" fill="#4a6e80" font-size="12">₹  Billing</text>
+  <text x="24" y="344" fill="#4a6e80" font-size="12">📊  Reports</text>
+  <text x="24" y="378" fill="#4a6e80" font-size="12">⚙  Settings</text>
+
+  <rect x="8" y="442" width="152" height="48" rx="10" fill="#0d1f2d"/>
+  <circle cx="32" cy="466" r="15" fill="#00b4d8" fill-opacity="0.7"/>
+  <text x="32" y="471" text-anchor="middle" fill="white" font-size="12" font-weight="bold">R</text>
+  <text x="56" y="461" fill="#c9d1d9" font-size="12" font-weight="bold">Dr. Rani M.</text>
+  <text x="56" y="476" fill="#4a6e80" font-size="10">Administrator</text>
+
+  <!-- Header -->
+  <text x="186" y="36" fill="#c9d1d9" font-size="20" font-weight="bold">Patient Medical Record</text>
+  <text x="186" y="55" fill="#4a6e80" font-size="12">Electronic Health Record (EHR) — Patient P-00422</text>
+  <rect x="650" y="18" width="138" height="30" rx="8" fill="#00b4d8" fill-opacity="0.18"/>
+  <text x="719" y="37" text-anchor="middle" fill="#00b4d8" font-size="11">✎  Edit Record</text>
+
+  <!-- Patient Profile Card -->
+  <rect x="184" y="66" width="210" height="418" rx="14" fill="#0d1f2d"/>
+  <circle cx="289" cy="120" r="38" fill="#0077b6" fill-opacity="0.25"/>
+  <text x="289" y="128" text-anchor="middle" fill="#00b4d8" font-size="32" font-weight="bold">R</text>
+  <text x="289" y="176" text-anchor="middle" fill="#c9d1d9" font-size="14" font-weight="bold">Ramesh Joshi</text>
+  <text x="289" y="192" text-anchor="middle" fill="#4a6e80" font-size="11">Patient ID: P-00422</text>
+  <rect x="246" y="200" width="86" height="22" rx="8" fill="#00b4d8" fill-opacity="0.18"/>
+  <text x="289" y="215" text-anchor="middle" fill="#00b4d8" font-size="10">Admitted — Cardiology</text>
+
+  <rect x="197" y="232" width="184" height="1" fill="#1a2a3a"/>
+
+  <!-- Patient Details -->
+  <text x="204" y="256" fill="#4a6e80" font-size="10">Age</text>
+  <text x="370" y="256" text-anchor="end" fill="#c9d1d9" font-size="11" font-weight="bold">58 yrs</text>
+  <text x="204" y="276" fill="#4a6e80" font-size="10">Gender</text>
+  <text x="370" y="276" text-anchor="end" fill="#c9d1d9" font-size="11">Male</text>
+  <text x="204" y="296" fill="#4a6e80" font-size="10">Blood Group</text>
+  <text x="370" y="296" text-anchor="end" fill="#e3342f" font-size="11" font-weight="bold">B+</text>
+  <text x="204" y="316" fill="#4a6e80" font-size="10">Contact</text>
+  <text x="370" y="316" text-anchor="end" fill="#c9d1d9" font-size="10">+91 98765 43210</text>
+  <text x="204" y="336" fill="#4a6e80" font-size="10">Admit Date</text>
+  <text x="370" y="336" text-anchor="end" fill="#c9d1d9" font-size="11">19 Apr 2026</text>
+  <text x="204" y="356" fill="#4a6e80" font-size="10">Doctor</text>
+  <text x="370" y="356" text-anchor="end" fill="#00b4d8" font-size="11">Dr. Mehta</text>
+  <text x="204" y="376" fill="#4a6e80" font-size="10">Ward / Bed</text>
+  <text x="370" y="376" text-anchor="end" fill="#c9d1d9" font-size="11">Ward 2 / Bed 04</text>
+  <text x="204" y="396" fill="#4a6e80" font-size="10">Insurance</text>
+  <text x="370" y="396" text-anchor="end" fill="#3fb950" font-size="11">Star Health</text>
+
+  <rect x="197" y="408" width="184" height="1" fill="#1a2a3a"/>
+  <text x="204" y="428" fill="#4a6e80" font-size="10">Allergies</text>
+  <text x="204" y="444" fill="#e3342f" font-size="11">Penicillin, Sulfa drugs</text>
+  <rect x="204" y="456" width="50" height="18" rx="6" fill="#e3342f" fill-opacity="0.14"/>
+  <text x="229" y="469" text-anchor="middle" fill="#e3342f" font-size="9">Alert</text>
+
+  <!-- Right side: Medical Details -->
+  <!-- Vitals -->
+  <rect x="404" y="66" width="384" height="90" rx="14" fill="#0d1f2d"/>
+  <text x="424" y="93" fill="#c9d1d9" font-size="13" font-weight="bold">Current Vitals</text>
+  <text x="762" y="93" text-anchor="end" fill="#4a6e80" font-size="10">Updated: Today 08:30</text>
+  <rect x="416" y="101" width="360" height="1" fill="#1a2a3a"/>
+
+  <rect x="416" y="110" width="74" height="36" rx="8" fill="#162030"/>
+  <text x="453" y="124" text-anchor="middle" fill="#4a6e80" font-size="9">BP</text>
+  <text x="453" y="140" text-anchor="middle" fill="#e3342f" font-size="13" font-weight="bold">142/90</text>
+
+  <rect x="498" y="110" width="74" height="36" rx="8" fill="#162030"/>
+  <text x="535" y="124" text-anchor="middle" fill="#4a6e80" font-size="9">Pulse</text>
+  <text x="535" y="140" text-anchor="middle" fill="#3fb950" font-size="13" font-weight="bold">78 bpm</text>
+
+  <rect x="580" y="110" width="74" height="36" rx="8" fill="#162030"/>
+  <text x="617" y="124" text-anchor="middle" fill="#4a6e80" font-size="9">SpO2</text>
+  <text x="617" y="140" text-anchor="middle" fill="#00b4d8" font-size="13" font-weight="bold">97%</text>
+
+  <rect x="662" y="110" width="74" height="36" rx="8" fill="#162030"/>
+  <text x="699" y="124" text-anchor="middle" fill="#4a6e80" font-size="9">Temp</text>
+  <text x="699" y="140" text-anchor="middle" fill="#3fb950" font-size="13" font-weight="bold">98.6°F</text>
+
+  <!-- Diagnosis -->
+  <rect x="404" y="166" width="184" height="100" rx="14" fill="#0d1f2d"/>
+  <text x="422" y="192" fill="#c9d1d9" font-size="12" font-weight="bold">Diagnosis</text>
+  <rect x="416" y="200" width="160" height="1" fill="#1a2a3a"/>
+  <rect x="416" y="208" width="160" height="24" rx="6" fill="#e3342f" fill-opacity="0.12"/>
+  <text x="496" y="224" text-anchor="middle" fill="#e3342f" font-size="11">Hypertension Stage II</text>
+  <rect x="416" y="238" width="160" height="20" rx="6" fill="#ffd700" fill-opacity="0.1"/>
+  <text x="496" y="252" text-anchor="middle" fill="#ffd700" font-size="11">Type 2 Diabetes</text>
+
+  <!-- Prescriptions -->
+  <rect x="598" y="166" width="190" height="100" rx="14" fill="#0d1f2d"/>
+  <text x="616" y="192" fill="#c9d1d9" font-size="12" font-weight="bold">Prescriptions</text>
+  <rect x="610" y="200" width="166" height="1" fill="#1a2a3a"/>
+
+  <text x="618" y="218" fill="#4a6e80" font-size="9">1.</text>
+  <text x="628" y="218" fill="#c9d1d9" font-size="10">Amlodipine 5mg</text>
+  <text x="618" y="234" fill="#4a6e80" font-size="9">2.</text>
+  <text x="628" y="234" fill="#c9d1d9" font-size="10">Metformin 500mg</text>
+  <text x="618" y="250" fill="#4a6e80" font-size="9">3.</text>
+  <text x="628" y="250" fill="#c9d1d9" font-size="10">Atorvastatin 10mg</text>
+
+  <!-- Lab Results -->
+  <rect x="404" y="276" width="384" height="112" rx="14" fill="#0d1f2d"/>
+  <text x="424" y="302" fill="#c9d1d9" font-size="12" font-weight="bold">Lab Results — 19 Apr 2026</text>
+  <rect x="416" y="310" width="360" height="1" fill="#1a2a3a"/>
+
+  <text x="424" y="328" fill="#4a6e80" font-size="10">Test</text>
+  <text x="580" y="328" fill="#4a6e80" font-size="10">Result</text>
+  <text x="660" y="328" fill="#4a6e80" font-size="10">Normal Range</text>
+  <text x="768" y="328" text-anchor="end" fill="#4a6e80" font-size="10">Status</text>
+
+  <rect x="416" y="334" width="360" height="22" rx="4" fill="#0a0f1a"/>
+  <text x="424" y="349" fill="#c9d1d9" font-size="10">Fasting Blood Sugar</text>
+  <text x="580" y="349" fill="#e3342f" font-size="11" font-weight="bold">142 mg/dL</text>
+  <text x="660" y="349" fill="#4a6e80" font-size="10">70–100 mg/dL</text>
+  <rect x="722" y="338" width="50" height="16" rx="5" fill="#e3342f" fill-opacity="0.14"/>
+  <text x="747" y="350" text-anchor="middle" fill="#e3342f" font-size="9">High</text>
+
+  <rect x="416" y="358" width="360" height="22" rx="4" fill="#162030"/>
+  <text x="424" y="373" fill="#c9d1d9" font-size="10">Total Cholesterol</text>
+  <text x="580" y="373" fill="#ffd700" font-size="11" font-weight="bold">215 mg/dL</text>
+  <text x="660" y="373" fill="#4a6e80" font-size="10">&lt;200 mg/dL</text>
+  <rect x="722" y="362" width="50" height="16" rx="5" fill="#ffd700" fill-opacity="0.12"/>
+  <text x="747" y="374" text-anchor="middle" fill="#ffd700" font-size="9">Borderline</text>
+
+  <!-- Notes -->
+  <rect x="404" y="398" width="384" height="86" rx="14" fill="#0d1f2d"/>
+  <text x="424" y="422" fill="#c9d1d9" font-size="12" font-weight="bold">Doctor's Notes</text>
+  <rect x="416" y="430" width="360" height="1" fill="#1a2a3a"/>
+  <text x="424" y="450" fill="#8b949e" font-size="11">Patient admitted with elevated BP (170/100) and chest discomfort.</text>
+  <text x="424" y="466" fill="#8b949e" font-size="11">Started on Amlodipine. Monitor BP every 4 hours. Echo scheduled</text>
+  <text x="424" y="481" fill="#8b949e" font-size="11">for tomorrow. Restrict sodium intake. Reassess in 48 hrs.</text>
+</svg>

@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560">
+  <defs>
+    <linearGradient id="gbg2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a192f"/>
+      <stop offset="100%" stop-color="#0d2137"/>
+    </linearGradient>
+    <linearGradient id="gg2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#64ffda"/>
+      <stop offset="100%" stop-color="#4dd9bf"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="560" fill="url(#gbg2)"/>
+
+  <!-- Title -->
+  <text x="450" y="42" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="11" fill="rgba(100,255,218,0.4)" letter-spacing="3">INTENT DETECTION &amp; DIALOG FLOW PIPELINE</text>
+  <line x1="80" y1="52" x2="820" y2="52" stroke="rgba(100,255,218,0.08)" stroke-width="1"/>
+
+  <!-- Node: User Input -->
+  <rect x="30" y="220" width="130" height="100" rx="14" fill="#112240" stroke="rgba(100,255,218,0.2)" stroke-width="1.5"/>
+  <rect x="30" y="220" width="130" height="3" rx="1.5" fill="url(#gg2)"/>
+  <text x="95" y="258" text-anchor="middle" font-size="28">👤</text>
+  <text x="95" y="282" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="12" fill="#ccd6f6" font-weight="700">User Input</text>
+  <text x="95" y="298" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="10" fill="#8892b0">Text / Voice</text>
+  <text x="95" y="312" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="10" fill="#8892b0">Query</text>
+
+  <!-- Arrow 1 -->
+  <line x1="162" y1="270" x2="202" y2="270" stroke="rgba(100,255,218,0.5)" stroke-width="2"/>
+  <polygon points="198,264 208,270 198,276" fill="#64ffda"/>
+
+  <!-- Node: OndeWo NLU -->
+  <rect x="210" y="170" width="160" height="200" rx="14" fill="#112240" stroke="rgba(100,255,218,0.25)" stroke-width="2"/>
+  <rect x="210" y="170" width="160" height="4" rx="2" fill="#64ffda"/>
+  <text x="290" y="196" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="10" fill="rgba(100,255,218,0.5)" letter-spacing="2">ONDEWO</text>
+  <text x="290" y="214" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="13" fill="#64ffda" font-weight="700">NLU Engine</text>
+  <rect x="226" y="224" width="128" height="22" rx="6" fill="#172a45"/>
+  <text x="290" y="239" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="11" fill="#a8b2d1">🔍 Tokenization</text>
+  <rect x="226" y="250" width="128" height="22" rx="6" fill="#172a45"/>
+  <text x="290" y="265" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="11" fill="#a8b2d1">🧠 Intent Detect</text>
+  <rect x="226" y="276" width="128" height="22" rx="6" fill="#172a45"/>
+  <text x="290" y="291" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="11" fill="#a8b2d1">🏷 Entity Extract</text>
+  <rect x="226" y="302" width="128" height="22" rx="6" fill="#172a45"/>
+  <text x="290" y="317" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="11" fill="#a8b2d1">📊 Confidence</text>
+  <text x="290" y="356" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="10" fill="rgba(100,255,218,0.3)">gRPC · REST</text>
+
+  <!-- Arrow 2 -->
+  <line x1="372" y1="270" x2="412" y2="270" stroke="rgba(100,255,218,0.5)" stroke-width="2"/>
+  <polygon points="408,264 418,270 408,276" fill="#64ffda"/>
+
+  <!-- Node: MCP Server -->
+  <rect x="420" y="170" width="160" height="200" rx="14" fill="#112240" stroke="rgba(77,217,191,0.25)" stroke-width="2"/>
+  <rect x="420" y="170" width="160" height="4" rx="2" fill="#4dd9bf"/>
+  <text x="500" y="196" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="10" fill="rgba(77,217,191,0.5)" letter-spacing="2">MCP SERVER</text>
+  <text x="500" y="214" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="13" fill="#4dd9bf" font-weight="700">Intent Router</text>
+  <rect x="436" y="224" width="128" height="22" rx="6" fill="#172a45"/>
+  <text x="500" y="239" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="11" fill="#a8b2d1">⚡ Rule Handler</text>
+  <rect x="436" y="250" width="128" height="22" rx="6" fill="#172a45"/>
+  <text x="500" y="265" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="11" fill="#a8b2d1">🔗 API Integrate</text>
+  <rect x="436" y="276" width="128" height="22" rx="6" fill="#172a45"/>
+  <text x="500" y="291" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="11" fill="#a8b2d1">🗃 Context Mgr</text>
+  <rect x="436" y="302" width="128" height="22" rx="6" fill="#172a45"/>
+  <text x="500" y="317" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="11" fill="#a8b2d1">📤 Response Build</text>
+  <text x="500" y="356" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="10" fill="rgba(77,217,191,0.3)">Node.js · Express</text>
+
+  <!-- Arrow 3 (dashed = AI path) -->
+  <line x1="582" y1="270" x2="622" y2="270" stroke="rgba(168,178,209,0.5)" stroke-width="2" stroke-dasharray="6,3"/>
+  <polygon points="618,264 628,270 618,276" fill="rgba(168,178,209,0.6)"/>
+
+  <!-- Node: LLM -->
+  <rect x="630" y="170" width="160" height="200" rx="14" fill="#112240" stroke="rgba(168,178,209,0.2)" stroke-width="2"/>
+  <rect x="630" y="170" width="160" height="4" rx="2" fill="#a8b2d1"/>
+  <text x="710" y="196" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="10" fill="rgba(168,178,209,0.5)" letter-spacing="2">LLM ENGINE</text>
+  <text x="710" y="214" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="13" fill="#ccd6f6" font-weight="700">AI Responder</text>
+  <rect x="646" y="224" width="128" height="22" rx="6" fill="#172a45"/>
+  <text x="710" y="239" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="11" fill="#a8b2d1">🧬 Context Window</text>
+  <rect x="646" y="250" width="128" height="22" rx="6" fill="#172a45"/>
+  <text x="710" y="265" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="11" fill="#a8b2d1">💬 Prompt Template</text>
+  <rect x="646" y="276" width="128" height="22" rx="6" fill="#172a45"/>
+  <text x="710" y="291" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="11" fill="#a8b2d1">✨ Token Generate</text>
+  <rect x="646" y="302" width="128" height="22" rx="6" fill="#172a45"/>
+  <text x="710" y="317" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="11" fill="#a8b2d1">📝 Stream Output</text>
+  <text x="710" y="356" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="10" fill="rgba(168,178,209,0.3)">Transformer</text>
+
+  <!-- Arrow 4 -->
+  <line x1="792" y1="270" x2="830" y2="270" stroke="rgba(100,255,218,0.5)" stroke-width="2"/>
+  <polygon points="826,264 836,270 826,276" fill="#64ffda"/>
+
+  <!-- Node: Response -->
+  <rect x="838" y="230" width="50" height="80" rx="12" fill="#112240" stroke="rgba(100,255,218,0.2)" stroke-width="1.5"/>
+  <rect x="838" y="230" width="50" height="3" rx="1.5" fill="url(#gg2)"/>
+  <text x="863" y="256" text-anchor="middle" font-size="18">💬</text>
+  <text x="863" y="278" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="9" fill="#64ffda" font-weight="700">Reply</text>
+  <text x="863" y="295" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="9" fill="#8892b0">Sent</text>
+
+  <!-- Legend -->
+  <rect x="210" y="418" width="630" height="44" rx="10" fill="rgba(100,255,218,0.03)" stroke="rgba(100,255,218,0.07)" stroke-width="1"/>
+  <text x="300" y="444" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="11" fill="rgba(100,255,218,0.6)">— Structured Flow</text>
+  <text x="500" y="444" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="11" fill="rgba(77,217,191,0.6)">— Business Logic</text>
+  <text x="700" y="444" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="11" fill="rgba(168,178,209,0.6)">- - AI-driven Path</text>
+
+  <text x="450" y="510" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="10" fill="rgba(100,255,218,0.15)" letter-spacing="3">HYBRID CONVERSATIONAL AI PIPELINE</text>
+</svg>
