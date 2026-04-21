@@ -1,0 +1,224 @@
+{
+  "Header.Item1": "About Me",
+  "Header.Item2": "Experience",
+  "Header.Item3": "Projects",
+  "Header.Item4": "Contact",
+  "Header.cvBtn": "Resume",
+  "Header.cvName": "Rani Mohadikar - CV.pdf",
+  "Loading": "Loading...",
+
+  "Banner.Pretitle": "Hello! My name is",
+  "Banner.Description": "I am a versatile and detail-oriented <span class='underline'>Sr. Software Engineer</span> with over <span class='underline'>5+ years</span> of experience specializing in <span class='underline'>Angular</span>, <span class='underline'>React.js</span>, and <span class='underline'>Node.js</span>. I build scalable web and mobile applications across healthcare, fintech, and <span class='underline'>AI-driven systems</span>, with hands-on experience integrating <span class='underline'>LLM</span> and <span class='underline'>MCP Server</span> into intelligent chatbot architectures.",
+  "Banner.ActionBtn": "Say Hi",
+
+  "AboutMe.Title": "About Me",
+  "AboutMe.Paragraphs": [
+    "In <span class='underline'>5+ years of experience</span> I have covered many roles: <span class='underline'>Sr. Software Engineer</span>, <span class='underline'>Angular Developer</span>, <span class='underline'>React Developer</span>, and <span class='underline'>Full Stack Developer</span>. I love crafting clean, responsive interfaces and scalable backend solutions that solve real-world problems.",
+    "I have delivered enterprise-grade applications across diverse domains — from <span class='underline'>Hospital Information Systems</span> and <span class='underline'>Banking Payment Platforms</span> to <span class='underline'>AI Chatbot Systems</span> and <span class='underline'>E-Commerce portals</span>. I am experienced with the full SDLC, Agile Scrum workflows, and cross-functional team collaboration.",
+    "Currently, I am working on an AI-powered conversational system that combines <span class='underline'>OndeWo</span>, <span class='underline'>MCP Server middleware</span>, and <span class='underline'>LLM</span> to deliver intelligent, hybrid rule-based and AI-driven chat interactions at scale.",
+    "Some of the technologies I have trained and worked with include (but are not limited to):"
+  ],
+
+  "Experience.Title": "Experience",
+  "Experience.Jobs": [
+    {
+      "Tab": "Bluexkye",
+      "Title": "Sr. Software Engineer",
+      "Date": "November 2025 - Present",
+      "Description": [
+        "Designed and developed an AI chatbot system using OndeWo as the conversation platform, MCP Server as middleware, and LLM for intelligent open-ended responses.",
+        "OndeWo handles intent detection and dialog flow for structured, rule-based interactions.",
+        "MCP Server orchestrates business logic, third-party integrations, and API routing.",
+        "LLM is integrated for contextual and open-ended conversational capabilities.",
+        "Architected a scalable, secure hybrid system supporting both rule-based and AI-driven chat flows.",
+        "Ensured modular, maintainable design with clean separation of concerns across the pipeline."
+      ]
+    },
+    {
+      "Tab": "NeoSoft",
+      "Title": "React Developer",
+      "Date": "June 2025 - July 2025",
+      "Description": [
+        "Developed full-featured user and admin eCommerce portals using React.js.",
+        "Implemented product listing, shopping cart, order tracking, and secure authentication flows.",
+        "Used React Hooks, Redux Toolkit, and React Router for state management and navigation.",
+        "Built role-based admin modules with responsive UI and optimized runtime performance.",
+        "Integrated RESTful APIs with the backend for seamless data operations and real-time updates."
+      ]
+    },
+    {
+      "Tab": "Medimaze",
+      "Title": "Angular Developer",
+      "Date": "May 2023 - February 2025",
+      "Description": [
+        "Developed and maintained the Hospital Information Management System (HIMS) web application using Angular 14.2.0 and PrimeNG.",
+        "Delivered a responsive, user-friendly interface covering patient workflows, appointments, billing, and reporting.",
+        "Collaborated directly with clients to gather requirements and translate them into technical solutions.",
+        "Handled both front-end and back-end development, including database management for end-to-end functionality.",
+        "Followed Agile Scrum methodology and SDLC process for efficient, on-time project delivery."
+      ]
+    },
+    {
+      "Tab": "Proclink",
+      "Title": "Full Stack Developer",
+      "Date": "November 2021 - April 2023",
+      "Description": [
+        "Developed and maintained a Banking Payment Management System for web and mobile using IONIC 6.16.1, Angular 12.2.0, and Java backend.",
+        "Implemented the Credit Card Management System and E-Wallet Management System with secure payment flows.",
+        "Integrated Java-based REST APIs with the Angular/Ionic frontend for smooth, secure transactions.",
+        "Wrote unit tests for web and mobile modules to ensure high code quality, reliability, and performance.",
+        "Ensured cross-platform compatibility and responsive design across web and mobile devices."
+      ]
+    },
+    {
+      "Tab": "AnkHub",
+      "Title": "Junior Developer",
+      "Date": "July 2020 - October 2021",
+      "Description": [
+        "Developed an Attendance & Monitoring Management System mobile application using IONIC 6.16.1 and Angular 11.2.2.",
+        "Created an HRMS Web Application with HTML, CSS, and Bootstrap 4 for effective employee data management.",
+        "Managed and developed WordPress web applications for multiple clients.",
+        "Contributed to digital marketing and social media campaigns to support business growth."
+      ]
+    }
+  ],
+
+  "FeatureProjects.Title": "My Projects",
+  "FeatureProjects.Label": "Highlighted Project",
+  "FeatureProjects.Projects": [
+    {
+      "Title": "AI Chatbot System",
+      "Description": "An intelligent conversational AI system built at Bluexkye. Uses <span class='underline'>OndeWo</span> for intent detection and dialog flow, <span class='underline'>MCP Server</span> as middleware for business logic and integrations, and <span class='underline'>LLM</span> for open-ended contextual responses. Supports both rule-based and AI-driven interactions in a scalable and secure architecture.",
+      "imgs": [
+        "assets/images/AIBot/aibot1.svg",
+        "assets/images/AIBot/aibot2.svg",
+        "assets/images/AIBot/aibot3.svg",
+        "assets/images/AIBot/aibot4.svg",
+        "assets/images/AIBot/aibot5.svg"
+      ],
+      "Technologies": ["OndeWo", "MCP Server", "LLM", "Node.js", "REST APIs"]
+    },
+    {
+      "Title": "HIMS – Hospital Information Management System",
+      "Description": "A comprehensive hospital management web application developed at Medimaze Solutions. Built with <span class='underline'>Angular 14</span> and <span class='underline'>PrimeNG</span>, it covers patient management, appointment scheduling, billing, and reporting with a fully responsive interface. Handled full-stack development including <span class='underline'>database design</span> and <span class='underline'>client requirement gathering</span>.",
+      "imgs": [
+        "assets/images/HIMS/hims1.svg",
+        "assets/images/HIMS/hims2.svg",
+        "assets/images/HIMS/hims3.svg",
+        "assets/images/HIMS/hims4.svg",
+        "assets/images/HIMS/hims5.svg"
+      ],
+      "Technologies": ["Angular 14", "PrimeNG", "TypeScript", "SASS", "MySQL"]
+    },
+    {
+      "Title": "Banking Payment Management System",
+      "Description": "A secure, cross-platform <span class='underline'>web and mobile banking application</span> developed at Proclink Consulting Services. Built with <span class='underline'>IONIC 6.16.1</span>, <span class='underline'>Angular 12.2.0</span>, and a <span class='underline'>Java backend</span>, it delivers a seamless experience across both web browsers and mobile devices. The system includes a fully functional <span class='underline'>Credit Card Management module</span> — enabling card issuance, transaction history, limit controls, and statement generation — alongside an <span class='underline'>E-Wallet Management System</span> for digital wallet top-ups, peer-to-peer transfers, and balance tracking. Java-based <span class='underline'>REST APIs</span> were tightly integrated with the Angular/Ionic frontend to ensure secure, real-time payment operations. Implemented <span class='underline'>OAuth2 / OIDC authentication</span> for role-based access control across user and admin flows. Wrote comprehensive <span class='underline'>unit tests</span> using Jest to maintain high code quality and reliability throughout the project lifecycle.",
+      "imgs": [
+        "assets/images/Banking/banking1.svg",
+        "assets/images/Banking/banking2.svg",
+        "assets/images/Banking/banking3.svg",
+        "assets/images/Banking/banking4.svg",
+        "assets/images/Banking/banking5.svg"
+      ],
+      "Technologies": ["IONIC 6", "Angular 12", "Java", "REST APIs", "OAuth2", "TypeScript", "Jest"]
+    },
+    {
+      "Title": "eCommerce Portal (User & Admin)",
+      "Description": "A full-featured <span class='underline'>eCommerce platform</span> developed at NeoSoft with separate user and admin portals. Includes <span class='underline'>product listing</span>, <span class='underline'>cart management</span>, <span class='underline'>order tracking</span>, and <span class='underline'>role-based authentication</span>. Built with React.js, Redux Toolkit, and React Router for efficient state management.",
+      "imgs": [
+        "assets/images/Ecom/Framecartel3.jpg",
+        "assets/images/Ecom/Framecartel4.jpg",
+        "assets/images/Ecom/Framecartel5.jpg",
+        "assets/images/Ecom/Framecartel6.jpg",
+        "assets/images/Ecom/Framecartel7.jpg",
+        "assets/images/Ecom/Framecartel12.jpg"
+      ],
+      "Technologies": ["React.js", "Redux Toolkit", "React Router", "Bootstrap 5", "REST APIs"]
+    },
+    {
+      "Title": "HRMS Web Application",
+      "Description": "A <span class='underline'>Human Resource Management System</span> built to streamline employee workflows. Features employee onboarding, attendance tracking, leave management, and performance reporting with a clean, responsive UI built using modern web standards.",
+      "imgs": [
+        "assets/images/Attendance/HRMS web2.jpg",
+        "assets/images/Attendance/HRMS web3.jpg",
+        "assets/images/Attendance/HRMS web4.jpg",
+        "assets/images/Attendance/HRMS web5.jpg",
+        "assets/images/Attendance/HRMS web5 (1).jpg",
+        "assets/images/Attendance/HRMS web6.jpg",
+        "assets/images/Attendance/HRMS web7.jpg",
+        "assets/images/Attendance/HRMS web8.jpg",
+        "assets/images/Attendance/HRMS web9.jpg",
+        "assets/images/Attendance/HRMS web10.jpg"
+      ],
+      "Technologies": ["Angular", "HTML5", "CSS3", "Bootstrap 4", "JavaScript"]
+    },
+    {
+      "Title": "Attendance & Monitoring System",
+      "Description": "A <span class='underline'>mobile-first application</span> for real-time employee attendance tracking and monitoring, developed at AnkHub. Built with <span class='underline'>IONIC 6.16.1</span> and <span class='underline'>Angular 11</span>, focused on intuitive interfaces for field staff and management dashboards with reliable data sync.",
+      "imgs": [
+        "assets/images/Mobile-hrms/hrms mobile1.jpg",
+        "assets/images/Mobile-hrms/hrms mobile2.jpg",
+        "assets/images/Mobile-hrms/hrms mobile3.jpg",
+        "assets/images/Mobile-hrms/hrms mobile4.jpg",
+        "assets/images/Mobile-hrms/hrms mobile5.png",
+        "assets/images/Mobile-hrms/hrms mobile6.png",
+        "assets/images/Mobile-hrms/hrms mobile7.jpg",
+        "assets/images/Mobile-hrms/hrms mobile8.jpg",
+        "assets/images/Mobile-hrms/hrms mobile9.jpg",
+        "assets/images/Mobile-hrms/hrms mobile10.jpg"
+      ],
+      "Technologies": ["IONIC 6", "Angular 11", "TypeScript", "SASS", "Firebase"]
+    }
+  ],
+
+  "OtherProjects.Title": "More Projects",
+  "OtherProjects.Projects": [
+    {
+      "Title": "Angular Data Dashboard",
+      "Description": "A collection of reusable Angular components featuring configurable charts, reactive data tables, and complex form validators using Angular Material, NgRx for state management, and RxJS for reactive streams.",
+      "imgs": ["assets/images/hands-game.png"],
+      "ghLink": "https://github.com/RaniMohadikar",
+      "Technologies": ["Angular", "NgRx", "Angular Material", "RxJS", "TypeScript"]
+    },
+    {
+      "Title": "Countries Viewer",
+      "Description": "Interface that consumes a countries REST API to display a list of countries with detail views, region filters, and name search. Features a dark/light theme toggle built with Angular and RxJS.",
+      "imgs": ["assets/images/countries-viewer.png"],
+      "ghLink": "https://github.com/RaniMohadikar",
+      "demoLink": "https://github.com/RaniMohadikar",
+      "Technologies": ["Angular", "RxJS", "SASS", "REST API"]
+    },
+    {
+      "Title": "FAQ Accordion",
+      "Description": "Frequently asked questions accordion component with smooth Angular animations and clean UI. Demonstrates reusable component design and Angular animation API usage.",
+      "ghLink": "https://github.com/RaniMohadikar",
+      "demoLink": "https://github.com/RaniMohadikar",
+      "Technologies": ["Angular", "CSS GRID", "Angular animations", "TypeScript"]
+    },
+    {
+      "Title": "Profile Card Component",
+      "Description": "A minimal, responsive profile card UI component designed from a Figma mockup. Built with Angular and SASS, demonstrating pixel-perfect implementation from design to code.",
+      "ghLink": "https://github.com/RaniMohadikar",
+      "demoLink": "https://github.com/RaniMohadikar",
+      "Technologies": ["Angular", "SASS", "Figma", "CSS GRID"]
+    },
+    {
+      "Title": "WordPress Custom Plugins",
+      "Description": "Developed custom WordPress plugins and templates for client projects, including ACF-based layouts, custom post types, and functional JavaScript enhancements for dynamic content interactions.",
+      "ghLink": "https://github.com/RaniMohadikar",
+      "Technologies": ["WordPress", "PHP", "JavaScript", "MySQL", "CSS3"]
+    },
+    {
+      "Title": "Social Proof Section",
+      "Description": "A single-page design challenge implemented from Figma, featuring testimonials and star ratings in a CSS Grid layout with entry animations.",
+      "ghLink": "https://github.com/RaniMohadikar",
+      "demoLink": "https://github.com/RaniMohadikar",
+      "Technologies": ["Angular", "CSS GRID", "SASS", "Figma"]
+    }
+  ],
+
+  "Contact.Pretitle": "What's Next?",
+  "Contact.Title": "Get In Touch",
+  "Contact.Content": "I am currently open to new opportunities. Whether you have a project idea, want to collaborate on something exciting, or just want to connect — feel free to reach out. I will get back to you as soon as possible!",
+  "Contact.Btn": "Say Hello"
+}

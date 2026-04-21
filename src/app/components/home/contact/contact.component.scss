@@ -1,0 +1,268 @@
+@use "./../../../../variables" as *;
+
+.contact{
+
+    margin: 0 auto;
+    max-width: 1000px;
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+    height: 100vh;
+    display: table;
+
+    .container{
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+    .contact-title{
+
+        position: relative;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-align-items: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        white-space: nowrap;
+        font-size: 60px;
+        font-weight: 600;
+        color: $LightestSlate;
+        margin: auto;
+        width: fit-content;
+    }
+    .contact-pre-title{
+        position: relative;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-align-items: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        margin: 10px 0 40px;
+        width: 100%;
+        white-space: nowrap;
+        font-size: 32px;
+        display: block;
+        color: $Green;
+        font-size: 16px;
+        font-family: $CodeFont;
+        font-weight: normal;
+        margin-bottom: 20px;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 768px){
+
+    .contact{
+        height: 100vh;
+        padding: 0 !important;
+        margin: 0 auto !important;
+        display: table;
+
+        .container{
+            display: table-cell;
+            vertical-align: middle;
+        }
+    }
+}
+
+// ─── Contact Modal ───────────────────────────────────────────
+.contact-modal-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(10, 25, 47, 0.85);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    z-index: 9000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.25s ease;
+
+    &.visible {
+        opacity: 1;
+        pointer-events: all;
+
+        .contact-modal {
+            transform: scale(1) translateY(0);
+        }
+    }
+}
+
+.contact-modal {
+    background: $LightNavy;
+    border: 1px solid rgba(100, 255, 218, 0.15);
+    border-radius: 20px;
+    padding: 40px 36px 36px;
+    width: 100%;
+    max-width: 420px;
+    margin: 16px;
+    position: relative;
+    box-shadow: 0 24px 64px rgba(0, 0, 0, 0.5), 0 0 0 1px rgba(100, 255, 218, 0.05);
+    transform: scale(0.9) translateY(20px);
+    transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+
+    .modal-close {
+        position: absolute;
+        top: 16px;
+        right: 16px;
+        background: transparent;
+        border: none;
+        color: $Slate;
+        cursor: pointer;
+        padding: 6px;
+        border-radius: 8px;
+        display: flex;
+        align-items: center;
+        transition: color 0.2s, background 0.2s;
+
+        &:hover {
+            color: $White;
+            background: rgba(255, 255, 255, 0.08);
+        }
+    }
+
+    .modal-icon {
+        font-size: 40px;
+        text-align: center;
+        margin-bottom: 12px;
+    }
+
+    .modal-title {
+        font-family: $MainFont;
+        font-size: 24px;
+        font-weight: 700;
+        color: $LightestSlate;
+        text-align: center;
+        margin: 0 0 8px;
+    }
+
+    .modal-subtitle {
+        font-family: $CodeFont;
+        font-size: 13px;
+        color: $Slate;
+        text-align: center;
+        margin: 0 0 28px;
+    }
+
+    .modal-actions {
+        display: flex;
+        flex-direction: column;
+        gap: 14px;
+    }
+
+    .contact-action-btn {
+        display: flex;
+        align-items: center;
+        gap: 14px;
+        width: 100%;
+        padding: 16px 18px;
+        border-radius: 14px;
+        border: 1px solid transparent;
+        cursor: pointer;
+        background: rgba(255, 255, 255, 0.04);
+        transition: all 0.22s ease;
+        text-align: left;
+        text-decoration: none;
+
+        .action-icon {
+            width: 44px;
+            height: 44px;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+        }
+
+        .action-label {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 3px;
+
+            .action-name {
+                font-family: $MainFont;
+                font-size: 15px;
+                font-weight: 600;
+            }
+
+            .action-value {
+                font-family: $CodeFont;
+                font-size: 12px;
+                color: $Slate;
+            }
+        }
+
+        .action-arrow {
+            font-size: 18px;
+            opacity: 0;
+            transform: translateX(-6px);
+            transition: opacity 0.2s, transform 0.2s;
+        }
+
+        &:hover .action-arrow {
+            opacity: 1;
+            transform: translateX(0);
+        }
+
+        &.whatsapp-btn {
+            border-color: rgba(37, 211, 102, 0.2);
+
+            .action-icon {
+                background: rgba(37, 211, 102, 0.12);
+                color: #25d366;
+            }
+
+            .action-label .action-name { color: #25d366; }
+            .action-arrow { color: #25d366; }
+
+            &:hover {
+                background: rgba(37, 211, 102, 0.08);
+                border-color: rgba(37, 211, 102, 0.4);
+                transform: translateY(-2px);
+                box-shadow: 0 8px 24px rgba(37, 211, 102, 0.15);
+            }
+        }
+
+        &.email-btn {
+            border-color: rgba(100, 255, 218, 0.15);
+
+            .action-icon {
+                background: rgba(100, 255, 218, 0.08);
+                color: $Green;
+            }
+
+            .action-label .action-name { color: $Green; }
+            .action-arrow { color: $Green; }
+
+            &:hover {
+                background: rgba(100, 255, 218, 0.06);
+                border-color: rgba(100, 255, 218, 0.35);
+                transform: translateY(-2px);
+                box-shadow: 0 8px 24px rgba(100, 255, 218, 0.12);
+            }
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    .contact-modal {
+        padding: 32px 20px 24px;
+
+        .modal-title { font-size: 20px; }
+    }
+}

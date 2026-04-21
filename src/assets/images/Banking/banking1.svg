@@ -1,0 +1,176 @@
+<svg width="800" height="500" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif">
+  <defs>
+    <linearGradient id="bg1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a3a6b"/>
+      <stop offset="100%" stop-color="#0d2137"/>
+    </linearGradient>
+    <linearGradient id="sidebar1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0f1923"/>
+      <stop offset="100%" stop-color="#0a1118"/>
+    </linearGradient>
+  </defs>
+
+  <!-- App Background -->
+  <rect width="800" height="500" fill="#0d1117"/>
+
+  <!-- Sidebar -->
+  <rect x="0" y="0" width="170" height="500" fill="url(#sidebar1)"/>
+  <rect x="168" y="0" width="2" height="500" fill="#21262d"/>
+
+  <!-- Logo -->
+  <rect x="15" y="16" width="140" height="48" rx="10" fill="#1f6feb" fill-opacity="0.15"/>
+  <rect x="22" y="26" width="28" height="28" rx="6" fill="#1f6feb"/>
+  <text x="36" y="45" text-anchor="middle" fill="white" font-size="14" font-weight="bold">B</text>
+  <text x="60" y="38" fill="#58a6ff" font-size="13" font-weight="bold">BankPay</text>
+  <text x="60" y="54" fill="#8b949e" font-size="9">Proclink Solutions</text>
+
+  <!-- Nav Items -->
+  <rect x="10" y="82" width="150" height="36" rx="8" fill="#1f6feb" fill-opacity="0.2"/>
+  <rect x="10" y="82" width="3" height="36" rx="2" fill="#58a6ff"/>
+  <rect x="22" y="91" width="18" height="18" rx="4" fill="#58a6ff" fill-opacity="0.3"/>
+  <text x="31" y="104" text-anchor="middle" fill="#58a6ff" font-size="11" font-weight="bold">▦</text>
+  <text x="48" y="104" fill="#58a6ff" font-size="12" font-weight="bold">Dashboard</text>
+
+  <rect x="22" y="130" width="18" height="18" rx="4" fill="#8b949e" fill-opacity="0.1"/>
+  <text x="31" y="143" text-anchor="middle" fill="#8b949e" font-size="11">◈</text>
+  <text x="48" y="143" fill="#8b949e" font-size="12">My Cards</text>
+
+  <rect x="22" y="168" width="18" height="18" rx="4" fill="#8b949e" fill-opacity="0.1"/>
+  <text x="31" y="181" text-anchor="middle" fill="#8b949e" font-size="11">↔</text>
+  <text x="48" y="181" fill="#8b949e" font-size="12">Transactions</text>
+
+  <rect x="22" y="206" width="18" height="18" rx="4" fill="#8b949e" fill-opacity="0.1"/>
+  <text x="31" y="219" text-anchor="middle" fill="#8b949e" font-size="11">↗</text>
+  <text x="48" y="219" fill="#8b949e" font-size="12">Transfer</text>
+
+  <rect x="22" y="244" width="18" height="18" rx="4" fill="#8b949e" fill-opacity="0.1"/>
+  <text x="31" y="257" text-anchor="middle" fill="#8b949e" font-size="11">◎</text>
+  <text x="48" y="257" fill="#8b949e" font-size="12">E-Wallet</text>
+
+  <rect x="22" y="282" width="18" height="18" rx="4" fill="#8b949e" fill-opacity="0.1"/>
+  <text x="31" y="295" text-anchor="middle" fill="#8b949e" font-size="11">◑</text>
+  <text x="48" y="295" fill="#8b949e" font-size="12">Analytics</text>
+
+  <rect x="22" y="320" width="18" height="18" rx="4" fill="#8b949e" fill-opacity="0.1"/>
+  <text x="31" y="333" text-anchor="middle" fill="#8b949e" font-size="11">⚙</text>
+  <text x="48" y="333" fill="#8b949e" font-size="12">Settings</text>
+
+  <!-- User Profile -->
+  <rect x="10" y="442" width="150" height="48" rx="10" fill="#21262d"/>
+  <circle cx="36" cy="466" r="16" fill="#1f6feb"/>
+  <text x="36" y="471" text-anchor="middle" fill="white" font-size="13" font-weight="bold">R</text>
+  <text x="60" y="461" fill="#c9d1d9" font-size="12" font-weight="bold">Rani M.</text>
+  <text x="60" y="476" fill="#8b949e" font-size="10">Sr. Engineer</text>
+
+  <!-- Main Content -->
+  <!-- Header -->
+  <text x="192" y="38" fill="#c9d1d9" font-size="20" font-weight="bold">Dashboard</text>
+  <text x="192" y="57" fill="#8b949e" font-size="12">Monday, 20 April 2026</text>
+  <rect x="680" y="20" width="108" height="32" rx="8" fill="#1f6feb" fill-opacity="0.2"/>
+  <text x="734" y="40" text-anchor="middle" fill="#58a6ff" font-size="12">+ New Transfer</text>
+
+  <!-- Total Balance Card -->
+  <rect x="184" y="70" width="370" height="112" rx="14" fill="url(#bg1)"/>
+  <circle cx="490" cy="98" r="60" fill="white" fill-opacity="0.03"/>
+  <circle cx="510" cy="150" r="44" fill="white" fill-opacity="0.03"/>
+  <text x="204" y="100" fill="#a0b4d0" font-size="12">Total Portfolio Balance</text>
+  <text x="204" y="136" fill="white" font-size="30" font-weight="bold">₹ 4,85,230.75</text>
+  <text x="204" y="158" fill="#3fb950" font-size="12">▲ +2.4%  vs last month</text>
+  <rect x="422" y="144" width="118" height="28" rx="8" fill="white" fill-opacity="0.15"/>
+  <text x="481" y="162" text-anchor="middle" fill="white" font-size="11">Quick Transfer ↗</text>
+
+  <!-- Account Cards -->
+  <text x="184" y="206" fill="#c9d1d9" font-size="13" font-weight="bold">My Accounts</text>
+  <!-- Savings -->
+  <rect x="184" y="216" width="176" height="88" rx="12" fill="#161b22"/>
+  <rect x="184" y="216" width="176" height="3" rx="2" fill="#3fb950"/>
+  <text x="200" y="242" fill="#8b949e" font-size="10">Savings Account</text>
+  <text x="200" y="258" fill="#c9d1d9" font-size="9" letter-spacing="1">•••• •••• 4521</text>
+  <text x="200" y="286" fill="white" font-size="17" font-weight="bold">₹ 2,34,120</text>
+  <rect x="316" y="276" width="34" height="16" rx="6" fill="#3fb950" fill-opacity="0.2"/>
+  <text x="333" y="287" text-anchor="middle" fill="#3fb950" font-size="9">Active</text>
+
+  <!-- Current -->
+  <rect x="370" y="216" width="176" height="88" rx="12" fill="#161b22"/>
+  <rect x="370" y="216" width="176" height="3" rx="2" fill="#58a6ff"/>
+  <text x="386" y="242" fill="#8b949e" font-size="10">Current Account</text>
+  <text x="386" y="258" fill="#c9d1d9" font-size="9" letter-spacing="1">•••• •••• 7830</text>
+  <text x="386" y="286" fill="white" font-size="17" font-weight="bold">₹ 1,82,450</text>
+  <rect x="502" y="276" width="34" height="16" rx="6" fill="#3fb950" fill-opacity="0.2"/>
+  <text x="519" y="287" text-anchor="middle" fill="#3fb950" font-size="9">Active</text>
+
+  <!-- Recent Transactions -->
+  <text x="184" y="330" fill="#c9d1d9" font-size="13" font-weight="bold">Recent Transactions</text>
+  <text x="542" y="330" fill="#58a6ff" font-size="11">View All →</text>
+
+  <!-- Tx 1 -->
+  <rect x="184" y="340" width="370" height="40" rx="8" fill="#161b22"/>
+  <circle cx="206" cy="360" r="13" fill="#3fb950" fill-opacity="0.15"/>
+  <text x="206" y="364" text-anchor="middle" fill="#3fb950" font-size="13">↙</text>
+  <text x="228" y="356" fill="#c9d1d9" font-size="12">Salary Credit</text>
+  <text x="228" y="371" fill="#8b949e" font-size="10">15 Apr · Savings A/C</text>
+  <text x="550" y="356" text-anchor="end" fill="#3fb950" font-size="13" font-weight="bold">+ ₹65,000</text>
+  <text x="550" y="371" text-anchor="end" fill="#8b949e" font-size="9">Credited</text>
+
+  <!-- Tx 2 -->
+  <rect x="184" y="388" width="370" height="40" rx="8" fill="#161b22"/>
+  <circle cx="206" cy="408" r="13" fill="#e3342f" fill-opacity="0.15"/>
+  <text x="206" y="412" text-anchor="middle" fill="#e3342f" font-size="13">↗</text>
+  <text x="228" y="404" fill="#c9d1d9" font-size="12">Amazon Payment</text>
+  <text x="228" y="419" fill="#8b949e" font-size="10">14 Apr · E-Wallet</text>
+  <text x="550" y="404" text-anchor="end" fill="#e3342f" font-size="13" font-weight="bold">- ₹3,499</text>
+  <text x="550" y="419" text-anchor="end" fill="#8b949e" font-size="9">Debited</text>
+
+  <!-- Tx 3 -->
+  <rect x="184" y="436" width="370" height="40" rx="8" fill="#161b22"/>
+  <circle cx="206" cy="456" r="13" fill="#e3342f" fill-opacity="0.15"/>
+  <text x="206" y="460" text-anchor="middle" fill="#e3342f" font-size="13">↗</text>
+  <text x="228" y="452" fill="#c9d1d9" font-size="12">Mobile Recharge</text>
+  <text x="228" y="467" fill="#8b949e" font-size="10">13 Apr · E-Wallet</text>
+  <text x="550" y="452" text-anchor="end" fill="#e3342f" font-size="13" font-weight="bold">- ₹599</text>
+  <text x="550" y="467" text-anchor="end" fill="#8b949e" font-size="9">Debited</text>
+
+  <!-- Right Panel -->
+  <rect x="568" y="70" width="220" height="155" rx="14" fill="#161b22"/>
+  <text x="588" y="97" fill="#c9d1d9" font-size="13" font-weight="bold">Monthly Summary</text>
+  <rect x="580" y="105" width="196" height="1" fill="#21262d"/>
+  <text x="588" y="126" fill="#8b949e" font-size="11">Total Income</text>
+  <text x="778" y="126" text-anchor="end" fill="#3fb950" font-size="15" font-weight="bold">₹ 85,000</text>
+  <rect x="580" y="135" width="196" height="1" fill="#21262d"/>
+  <text x="588" y="155" fill="#8b949e" font-size="11">Total Expenses</text>
+  <text x="778" y="155" text-anchor="end" fill="#e3342f" font-size="15" font-weight="bold">₹ 32,450</text>
+  <rect x="580" y="164" width="196" height="1" fill="#21262d"/>
+  <text x="588" y="184" fill="#8b949e" font-size="11">Net Savings</text>
+  <text x="778" y="184" text-anchor="end" fill="#58a6ff" font-size="15" font-weight="bold">₹ 52,550</text>
+  <rect x="580" y="193" width="196" height="1" fill="#21262d"/>
+  <text x="588" y="213" fill="#8b949e" font-size="11">Saving Rate</text>
+  <text x="778" y="213" text-anchor="end" fill="#ffd700" font-size="15" font-weight="bold">61.8%</text>
+
+  <!-- Quick Actions -->
+  <rect x="568" y="238" width="220" height="100" rx="14" fill="#161b22"/>
+  <text x="588" y="262" fill="#c9d1d9" font-size="13" font-weight="bold">Quick Actions</text>
+  <rect x="580" y="272" width="90" height="52" rx="10" fill="#1f6feb" fill-opacity="0.15"/>
+  <text x="625" y="294" text-anchor="middle" fill="#58a6ff" font-size="18">↗</text>
+  <text x="625" y="313" text-anchor="middle" fill="#58a6ff" font-size="11">Send Money</text>
+  <rect x="680" y="272" width="90" height="52" rx="10" fill="#3fb950" fill-opacity="0.1"/>
+  <text x="725" y="294" text-anchor="middle" fill="#3fb950" font-size="18">↙</text>
+  <text x="725" y="313" text-anchor="middle" fill="#3fb950" font-size="11">Receive</text>
+
+  <!-- Notifications -->
+  <rect x="568" y="350" width="220" height="130" rx="14" fill="#161b22"/>
+  <text x="588" y="375" fill="#c9d1d9" font-size="13" font-weight="bold">Alerts</text>
+  <circle cx="748" cy="369" r="8" fill="#e3342f"/>
+  <text x="748" y="373" text-anchor="middle" fill="white" font-size="9" font-weight="bold">2</text>
+
+  <rect x="580" y="384" width="196" height="40" rx="8" fill="#21262d"/>
+  <circle cx="598" cy="404" r="10" fill="#3fb950" fill-opacity="0.2"/>
+  <text x="598" y="408" text-anchor="middle" fill="#3fb950" font-size="10">✓</text>
+  <text x="614" y="400" fill="#c9d1d9" font-size="11">Salary credited ₹65,000</text>
+  <text x="614" y="414" fill="#8b949e" font-size="9">Today, 9:00 AM</text>
+
+  <rect x="580" y="430" width="196" height="40" rx="8" fill="#21262d"/>
+  <circle cx="598" cy="450" r="10" fill="#ffd700" fill-opacity="0.2"/>
+  <text x="598" y="454" text-anchor="middle" fill="#ffd700" font-size="10">!</text>
+  <text x="614" y="446" fill="#c9d1d9" font-size="11">Card limit at 80%</text>
+  <text x="614" y="460" fill="#8b949e" font-size="9">Yesterday, 5:30 PM</text>
+</svg>

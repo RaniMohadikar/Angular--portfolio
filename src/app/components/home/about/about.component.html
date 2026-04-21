@@ -1,0 +1,129 @@
+<section class="section about" id='about' (keydown)="onKeyDown($event)" tabindex="0">
+    <div class="container">
+        <div class="section-box">
+            <div class="about-title" data-animate="slideInUp" data-animate-duration="1000">
+                <h3 class="section-title">
+                    <span class='n-section-title'>01.</span> {{"AboutMe.Title" | translate}}
+                </h3>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-6 mb-4 mb-md-0">
+                    <div class="about-description">
+                        <p *ngFor='let text of "AboutMe.Paragraphs" | translate; let i = index'
+                           [innerHTML]="text"
+                           data-animate="fadeInLeft"
+                           [attr.data-animate-delay]="200 + (i * 300)"
+                           data-animate-duration="800">
+                        </p>
+                        <ul class="skills-list" data-animate="fadeInUp" data-animate-delay="800">
+                            <li class="skill-element"
+                                data-animate="scaleIn"
+                                data-animate-delay="1000">
+                                <span class="underline">Angular(12.2.0- 18.0.2) | SASS | NPM </span>
+                            </li>
+                            <li class="skill-element"
+                                data-animate="scaleIn"
+                                data-animate-delay="1100">
+                                <span class="underline"> PrimeNG | NgRx | RxJs </span>
+                            </li>
+                            <li class="skill-element"
+                                data-animate="scaleIn"
+                                data-animate-delay="1200">
+                                <span class="underline">HTML5|CSS3|Bootstrap 4/5 &amp; (S)CSS </span>
+                            </li>
+                              <li class="skill-element"
+                                data-animate="scaleIn"
+                                data-animate-delay="1500">
+                                <span class="underline">React Js |Hooks |Redux</span>
+                            </li>
+                            <li class="skill-element"
+                                data-animate="scaleIn"
+                                data-animate-delay="1300">
+                                <span class="underline">Ionic(Version- 6.16.1)</span>
+                            </li>
+                             <li class="skill-element"
+                                data-animate="scaleIn"
+                                data-animate-delay="1500">
+                                <span class="underline"> JavaScript|Typescript.</span>
+                            </li>
+                             <li class="skill-element"
+                                data-animate="scaleIn"
+                                data-animate-delay="1500">
+                                <span class="underline">Node. js</span>
+                            </li>
+                            <li class="skill-element"
+                                data-animate="scaleIn"
+                                data-animate-delay="1400">
+                                <span class="underline">Express </span>
+                            </li>
+                             <li class="skill-element"
+                                data-animate="scaleIn"
+                                data-animate-delay="1500">
+                                <span class="underline">MySQL| MongoDB Database.</span>
+                            </li>
+                              <li class="skill-element"
+                                data-animate="scaleIn"
+                                data-animate-delay="1500">
+                                <span class="underline">OAuth2 | OIDC | Authentication Frameworks.</span> 
+                            </li>
+                              <li class="skill-element"
+                                data-animate="scaleIn"
+                                data-animate-delay="1500">
+                                <span class="underline"> API’s | RESTFUL API | Web Sockets</span> 
+                            </li>  <li class="skill-element"
+                                data-animate="scaleIn"
+                                data-animate-delay="1500">
+                                <span class="underline">Social Media Marketing</span> 
+                            </li>  <li class="skill-element"
+                                data-animate="scaleIn"
+                                data-animate-delay="1500">
+                                <span class="underline">Agile Scrum methodology with SDLC</span> 
+                            </li>
+                            <li class="skill-element"
+                                data-animate="scaleIn"
+                                data-animate-delay="1600">
+                                <span class="underline">Jest | Karma</span>
+                            </li>
+                            <li class="skill-element"
+                                data-animate="scaleIn"
+                                data-animate-delay="1700">
+                                <span class="underline">CI / CD </span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 mt-4 mt-md-0 text-center"
+                     data-animate="morphIn"
+                     data-animate-duration="1200"
+                     data-animate-delay="600">
+                    <div class="about-img-container">
+                        <img (click)='onImageClick()'
+                             class="rounded about-image clickable"
+                             width="100%"
+                             src="assets/images/Rani Mohadikar.jpeg"
+                             alt="Rani Mohadikar "
+                             title="Click para ver imagen ampliada">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal para imagen ampliada -->
+    <div class="image-modal-overlay"
+         *ngIf="isImageModalOpen"
+         (click)="onModalBackdropClick($event)"
+         [@fadeInOut]>
+        <div class="image-modal-container">
+            <button class="modal-close-btn"
+                    (click)="closeImageModal()"
+                    aria-label="Cerrar modal">
+                <span>&times;</span>
+            </button>
+            <img class="modal-image"
+                 src="assets/images/me6.jpg"
+                 alt="Rani Mohadikar  - Imagen ampliada"
+                 [@zoomIn]>
+        </div>
+    </div>
+</section>

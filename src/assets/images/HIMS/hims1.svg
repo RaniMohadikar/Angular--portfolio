@@ -1,0 +1,226 @@
+<svg width="800" height="500" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif">
+  <defs>
+    <linearGradient id="sb" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#071a2e"/>
+      <stop offset="100%" stop-color="#050f1c"/>
+    </linearGradient>
+    <linearGradient id="statBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0077b6"/>
+      <stop offset="100%" stop-color="#023e8a"/>
+    </linearGradient>
+    <linearGradient id="statGreen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1b7a34"/>
+      <stop offset="100%" stop-color="#0d3d1a"/>
+    </linearGradient>
+    <linearGradient id="statTeal" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0096a8"/>
+      <stop offset="100%" stop-color="#005f6b"/>
+    </linearGradient>
+    <linearGradient id="statOrange" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#c05621"/>
+      <stop offset="100%" stop-color="#7b3200"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="500" fill="#0a0f1a"/>
+
+  <!-- Sidebar -->
+  <rect x="0" y="0" width="168" height="500" fill="url(#sb)"/>
+  <rect x="166" y="0" width="2" height="500" fill="#1a2a3a"/>
+
+  <!-- Logo -->
+  <rect x="12" y="14" width="144" height="50" rx="10" fill="#00b4d8" fill-opacity="0.12"/>
+  <rect x="18" y="22" width="32" height="32" rx="8" fill="#00b4d8"/>
+  <text x="34" y="42" text-anchor="middle" fill="white" font-size="16" font-weight="bold">✚</text>
+  <text x="60" y="35" fill="#00b4d8" font-size="13" font-weight="bold">HIMS</text>
+  <text x="60" y="52" fill="#4a8fa8" font-size="9">Hospital Info System</text>
+
+  <!-- Nav -->
+  <rect x="8" y="80" width="152" height="34" rx="8" fill="#00b4d8" fill-opacity="0.18"/>
+  <rect x="8" y="80" width="3" height="34" rx="2" fill="#00b4d8"/>
+  <text x="24" y="101" fill="#00b4d8" font-size="12" font-weight="bold">⊞  Dashboard</text>
+
+  <text x="24" y="135" fill="#4a6e80" font-size="12">👤  Patients</text>
+  <text x="24" y="169" fill="#4a6e80" font-size="12">📅  Appointments</text>
+  <text x="24" y="203" fill="#4a6e80" font-size="12">🏥  Wards &amp; Beds</text>
+  <text x="24" y="237" fill="#4a6e80" font-size="12">💊  Pharmacy</text>
+  <text x="24" y="271" fill="#4a6e80" font-size="12">🧪  Lab Results</text>
+  <text x="24" y="305" fill="#4a6e80" font-size="12">₹  Billing</text>
+  <text x="24" y="339" fill="#4a6e80" font-size="12">📊  Reports</text>
+  <text x="24" y="373" fill="#4a6e80" font-size="12">⚙  Settings</text>
+
+  <!-- User -->
+  <rect x="8" y="442" width="152" height="48" rx="10" fill="#0d1f2d"/>
+  <circle cx="32" cy="466" r="15" fill="#00b4d8" fill-opacity="0.7"/>
+  <text x="32" y="471" text-anchor="middle" fill="white" font-size="12" font-weight="bold">R</text>
+  <text x="56" y="461" fill="#c9d1d9" font-size="12" font-weight="bold">Dr. Rani M.</text>
+  <text x="56" y="476" fill="#4a6e80" font-size="10">Administrator</text>
+
+  <!-- Header -->
+  <text x="186" y="36" fill="#c9d1d9" font-size="20" font-weight="bold">Hospital Dashboard</text>
+  <text x="186" y="55" fill="#4a6e80" font-size="12">Monday, 20 April 2026  ·  Medimaze Solutions</text>
+  <rect x="660" y="18" width="128" height="30" rx="8" fill="#00b4d8" fill-opacity="0.18"/>
+  <text x="724" y="37" text-anchor="middle" fill="#00b4d8" font-size="11">+ Admit Patient</text>
+
+  <!-- Stat Cards Row -->
+  <!-- Total Patients -->
+  <rect x="184" y="66" width="138" height="80" rx="12" fill="url(#statBlue)"/>
+  <circle cx="290" cy="88" r="28" fill="white" fill-opacity="0.05"/>
+  <text x="204" y="96" fill="#90d4f0" font-size="10">Total Patients</text>
+  <text x="204" y="122" fill="white" font-size="26" font-weight="bold">3,428</text>
+  <text x="204" y="138" fill="#90d4f0" font-size="10">▲ +12 today</text>
+
+  <!-- Today Appointments -->
+  <rect x="330" y="66" width="138" height="80" rx="12" fill="url(#statGreen)"/>
+  <circle cx="436" cy="88" r="28" fill="white" fill-opacity="0.05"/>
+  <text x="350" y="96" fill="#90e0a0" font-size="10">Today Appts</text>
+  <text x="350" y="122" fill="white" font-size="26" font-weight="bold">84</text>
+  <text x="350" y="138" fill="#90e0a0" font-size="10">22 pending</text>
+
+  <!-- Bed Occupancy -->
+  <rect x="476" y="66" width="138" height="80" rx="12" fill="url(#statTeal)"/>
+  <circle cx="582" cy="88" r="28" fill="white" fill-opacity="0.05"/>
+  <text x="496" y="96" fill="#90e8f0" font-size="10">Bed Occupancy</text>
+  <text x="496" y="122" fill="white" font-size="26" font-weight="bold">78%</text>
+  <text x="496" y="138" fill="#90e8f0" font-size="10">156 / 200 beds</text>
+
+  <!-- Revenue -->
+  <rect x="622" y="66" width="166" height="80" rx="12" fill="url(#statOrange)"/>
+  <circle cx="760" cy="88" r="28" fill="white" fill-opacity="0.05"/>
+  <text x="640" y="96" fill="#ffc080" font-size="10">Today Revenue</text>
+  <text x="640" y="122" fill="white" font-size="26" font-weight="bold">₹1.2L</text>
+  <text x="640" y="138" fill="#ffc080" font-size="10">▲ +8% vs yesterday</text>
+
+  <!-- Today's Appointments -->
+  <text x="186" y="172" fill="#c9d1d9" font-size="13" font-weight="bold">Today's Appointments</text>
+  <text x="516" y="172" fill="#00b4d8" font-size="11">View All →</text>
+
+  <!-- Appt Table Header -->
+  <rect x="184" y="180" width="340" height="26" rx="6" fill="#0d1f2d"/>
+  <text x="198" y="197" fill="#4a6e80" font-size="9" font-weight="bold">PATIENT</text>
+  <text x="298" y="197" fill="#4a6e80" font-size="9" font-weight="bold">DOCTOR</text>
+  <text x="388" y="197" fill="#4a6e80" font-size="9" font-weight="bold">TIME</text>
+  <text x="458" y="197" fill="#4a6e80" font-size="9" font-weight="bold">STATUS</text>
+
+  <!-- Rows -->
+  <rect x="184" y="208" width="340" height="32" rx="0" fill="#0a0f1a"/>
+  <rect x="184" y="239" width="340" height="1" fill="#1a2a3a"/>
+  <circle cx="198" cy="224" r="10" fill="#0077b6" fill-opacity="0.4"/>
+  <text x="198" y="228" text-anchor="middle" fill="#00b4d8" font-size="9">S</text>
+  <text x="214" y="222" fill="#c9d1d9" font-size="11">Sunita Patil</text>
+  <text x="214" y="234" fill="#4a6e80" font-size="9">P-00421</text>
+  <text x="300" y="226" fill="#c9d1d9" font-size="11">Dr. Sharma</text>
+  <text x="390" y="226" fill="#c9d1d9" font-size="11">09:00</text>
+  <rect x="450" y="216" width="64" height="18" rx="6" fill="#3fb950" fill-opacity="0.15"/>
+  <text x="482" y="229" text-anchor="middle" fill="#3fb950" font-size="9">Completed</text>
+
+  <rect x="184" y="240" width="340" height="32" rx="0" fill="#0d1f2d"/>
+  <rect x="184" y="271" width="340" height="1" fill="#1a2a3a"/>
+  <circle cx="198" cy="256" r="10" fill="#0096a8" fill-opacity="0.4"/>
+  <text x="198" y="260" text-anchor="middle" fill="#00e0f0" font-size="9">R</text>
+  <text x="214" y="254" fill="#c9d1d9" font-size="11">Ramesh Joshi</text>
+  <text x="214" y="266" fill="#4a6e80" font-size="9">P-00422</text>
+  <text x="300" y="258" fill="#c9d1d9" font-size="11">Dr. Mehta</text>
+  <text x="390" y="258" fill="#c9d1d9" font-size="11">10:30</text>
+  <rect x="450" y="248" width="64" height="18" rx="6" fill="#00b4d8" fill-opacity="0.15"/>
+  <text x="482" y="261" text-anchor="middle" fill="#00b4d8" font-size="9">In Progress</text>
+
+  <rect x="184" y="272" width="340" height="32" rx="0" fill="#0a0f1a"/>
+  <rect x="184" y="303" width="340" height="1" fill="#1a2a3a"/>
+  <circle cx="198" cy="288" r="10" fill="#c05621" fill-opacity="0.4"/>
+  <text x="198" y="292" text-anchor="middle" fill="#ffa040" font-size="9">A</text>
+  <text x="214" y="286" fill="#c9d1d9" font-size="11">Aasha Nair</text>
+  <text x="214" y="298" fill="#4a6e80" font-size="9">P-00423</text>
+  <text x="300" y="290" fill="#c9d1d9" font-size="11">Dr. Kulkarni</text>
+  <text x="390" y="290" fill="#c9d1d9" font-size="11">11:00</text>
+  <rect x="450" y="280" width="64" height="18" rx="6" fill="#ffd700" fill-opacity="0.12"/>
+  <text x="482" y="293" text-anchor="middle" fill="#ffd700" font-size="9">Waiting</text>
+
+  <rect x="184" y="304" width="340" height="32" rx="0" fill="#0d1f2d"/>
+  <rect x="184" y="335" width="340" height="1" fill="#1a2a3a"/>
+  <circle cx="198" cy="320" r="10" fill="#1b7a34" fill-opacity="0.4"/>
+  <text x="198" y="324" text-anchor="middle" fill="#3fb950" font-size="9">V</text>
+  <text x="214" y="318" fill="#c9d1d9" font-size="11">Vikas Gupta</text>
+  <text x="214" y="330" fill="#4a6e80" font-size="9">P-00424</text>
+  <text x="300" y="322" fill="#c9d1d9" font-size="11">Dr. Singh</text>
+  <text x="390" y="322" fill="#c9d1d9" font-size="11">12:00</text>
+  <rect x="450" y="312" width="64" height="18" rx="6" fill="#4a6e80" fill-opacity="0.2"/>
+  <text x="482" y="325" text-anchor="middle" fill="#8b949e" font-size="9">Scheduled</text>
+
+  <rect x="184" y="336" width="340" height="32" rx="0" fill="#0a0f1a"/>
+  <circle cx="198" cy="352" r="10" fill="#0077b6" fill-opacity="0.4"/>
+  <text x="198" y="356" text-anchor="middle" fill="#00b4d8" font-size="9">M</text>
+  <text x="214" y="350" fill="#c9d1d9" font-size="11">Meena Desai</text>
+  <text x="214" y="362" fill="#4a6e80" font-size="9">P-00425</text>
+  <text x="300" y="354" fill="#c9d1d9" font-size="11">Dr. Sharma</text>
+  <text x="390" y="354" fill="#c9d1d9" font-size="11">14:30</text>
+  <rect x="450" y="344" width="64" height="18" rx="6" fill="#4a6e80" fill-opacity="0.2"/>
+  <text x="482" y="357" text-anchor="middle" fill="#8b949e" font-size="9">Scheduled</text>
+
+  <!-- Recent Admissions -->
+  <text x="186" y="394" fill="#c9d1d9" font-size="13" font-weight="bold">Recent Admissions</text>
+
+  <rect x="184" y="402" width="340" height="38" rx="8" fill="#0d1f2d"/>
+  <rect x="184" y="402" width="3" height="38" rx="2" fill="#e3342f"/>
+  <text x="196" y="418" fill="#c9d1d9" font-size="12">Kavitha Rao  ·  Ward 3, Bed 12</text>
+  <text x="196" y="432" fill="#4a6e80" font-size="10">Admitted: 19 Apr  ·  Orthopaedics  ·  Dr. Joshi</text>
+  <rect x="470" y="410" width="44" height="20" rx="6" fill="#e3342f" fill-opacity="0.15"/>
+  <text x="492" y="424" text-anchor="middle" fill="#e3342f" font-size="9">Critical</text>
+
+  <rect x="184" y="446" width="340" height="38" rx="8" fill="#0d1f2d"/>
+  <rect x="184" y="446" width="3" height="38" rx="2" fill="#3fb950"/>
+  <text x="196" y="462" fill="#c9d1d9" font-size="12">Pradeep Shah  ·  Ward 1, Bed 05</text>
+  <text x="196" y="476" fill="#4a6e80" font-size="10">Admitted: 20 Apr  ·  General  ·  Dr. Mehta</text>
+  <rect x="470" y="454" width="44" height="20" rx="6" fill="#3fb950" fill-opacity="0.12"/>
+  <text x="492" y="468" text-anchor="middle" fill="#3fb950" font-size="9">Stable</text>
+
+  <!-- Right Panel -->
+  <rect x="540" y="156" width="248" height="160" rx="14" fill="#0d1f2d"/>
+  <text x="560" y="184" fill="#c9d1d9" font-size="13" font-weight="bold">Department Summary</text>
+  <rect x="552" y="192" width="224" height="1" fill="#1a2a3a"/>
+
+  <text x="560" y="213" fill="#4a6e80" font-size="11">General Medicine</text>
+  <rect x="650" y="204" width="110" height="8" rx="4" fill="#1a2a3a"/>
+  <rect x="650" y="204" width="88" height="8" rx="4" fill="#0077b6"/>
+  <text x="762" y="213" text-anchor="end" fill="#c9d1d9" font-size="11">80%</text>
+
+  <text x="560" y="233" fill="#4a6e80" font-size="11">Orthopaedics</text>
+  <rect x="650" y="224" width="110" height="8" rx="4" fill="#1a2a3a"/>
+  <rect x="650" y="224" width="66" height="8" rx="4" fill="#00b4d8"/>
+  <text x="762" y="233" text-anchor="end" fill="#c9d1d9" font-size="11">60%</text>
+
+  <text x="560" y="253" fill="#4a6e80" font-size="11">Cardiology</text>
+  <rect x="650" y="244" width="110" height="8" rx="4" fill="#1a2a3a"/>
+  <rect x="650" y="244" width="99" height="8" rx="4" fill="#e3342f"/>
+  <text x="762" y="253" text-anchor="end" fill="#c9d1d9" font-size="11">90%</text>
+
+  <text x="560" y="273" fill="#4a6e80" font-size="11">Paediatrics</text>
+  <rect x="650" y="264" width="110" height="8" rx="4" fill="#1a2a3a"/>
+  <rect x="650" y="264" width="55" height="8" rx="4" fill="#3fb950"/>
+  <text x="762" y="273" text-anchor="end" fill="#c9d1d9" font-size="11">50%</text>
+
+  <text x="560" y="293" fill="#4a6e80" font-size="11">Gynaecology</text>
+  <rect x="650" y="284" width="110" height="8" rx="4" fill="#1a2a3a"/>
+  <rect x="650" y="284" width="77" height="8" rx="4" fill="#ffd700"/>
+  <text x="762" y="293" text-anchor="end" fill="#c9d1d9" font-size="11">70%</text>
+
+  <!-- Alerts -->
+  <rect x="540" y="328" width="248" height="156" rx="14" fill="#0d1f2d"/>
+  <text x="560" y="354" fill="#c9d1d9" font-size="13" font-weight="bold">Critical Alerts</text>
+  <circle cx="765" cy="348" r="9" fill="#e3342f"/>
+  <text x="765" y="352" text-anchor="middle" fill="white" font-size="9" font-weight="bold">3</text>
+  <rect x="552" y="362" width="224" height="1" fill="#1a2a3a"/>
+
+  <rect x="552" y="370" width="224" height="38" rx="8" fill="#e3342f" fill-opacity="0.08"/>
+  <rect x="552" y="370" width="3" height="38" rx="2" fill="#e3342f"/>
+  <text x="564" y="385" fill="#e3342f" font-size="11" font-weight="bold">ICU Bed Alert</text>
+  <text x="564" y="399" fill="#8b949e" font-size="9">ICU at 95% capacity · 1 bed left</text>
+
+  <rect x="552" y="414" width="224" height="38" rx="8" fill="#ffd700" fill-opacity="0.06"/>
+  <rect x="552" y="414" width="3" height="38" rx="2" fill="#ffd700"/>
+  <text x="564" y="429" fill="#ffd700" font-size="11" font-weight="bold">Drug Stock Low</text>
+  <text x="564" y="443" fill="#8b949e" font-size="9">Paracetamol stock below minimum</text>
+
+  <rect x="552" y="458" width="224" height="18" rx="6" fill="#00b4d8" fill-opacity="0.08"/>
+  <text x="664" y="471" text-anchor="middle" fill="#00b4d8" font-size="10">View All Alerts →</text>
+</svg>
