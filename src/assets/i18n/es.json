@@ -219,6 +219,17 @@
   "OtherProjects.Title": "Más proyectos",
   "OtherProjects.Projects": [
     {
+      "Title": "ShopEasy – Aplicación Móvil de Compras",
+      "Description": "Aplicación móvil de <span class='underline'>eCommerce</span> desarrollada con <span class='underline'>Ionic</span> y <span class='underline'>Angular</span> para Android e iOS. Incluye búsqueda de productos, carrito, pago seguro, seguimiento de pedidos y gestión de perfil. Integración de <span class='underline'>REST APIs</span> para autenticación, pagos y datos en tiempo real con rendimiento optimizado.",
+      "imgs": ["assets/images/hands-game.png"],
+      "ghLink": "https://github.com/RaniMohadikar/E-com",
+      "demoLink": "https://e-com-lekh.vercel.app/login",
+      "Technologies": ["IONIC", "Angular", "TypeScript", "REST APIs", "SASS"]
+    }
+  ],
+
+  "OtherProjects.Projects.hidden": [
+    {
       "Title": "Hands game",
       "Description": "Juego de piedra papel y tijeras extendido. Un proyecto personal desarrollado en Angular en el que juegas al azar contra la máquina. Cuenta con la utilización de servicios, interfaces y componentes.",
       "imgs": ["assets/images/hands-game.png"],

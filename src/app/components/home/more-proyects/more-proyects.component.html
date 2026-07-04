@@ -22,8 +22,7 @@
                                     <a (click)='analyticsService.sendAnalyticEvent("click_pokemonlist_github", "proyects", "click")' style='color: inherit' [href]="project['ghLink']" target="_blank"><i id="ghLink" class="ml-4 fab fa-github"></i></a>
                                 </div>
                                 <h5 class="other-proyect-title mt-4">{{project.Title}}</h5>
-                                <p class="other-proyect-description">
-                                    {{project.Description}}
+                                <p class="other-proyect-description" [innerHTML]="project.Description">
                                 </p>
                             </div>
                             <div>

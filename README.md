@@ -1,46 +1,68 @@
-# Personal website for introduce yourself
+# Personal Portfolio Website
 
-## Getting Started
+## About
 
-I have developed this theme as a personal proyect. I have taked the inspiration (and basically all the design) from the wonderful work of Britanny Chiang. You can visit her repo [here](https://github.com/bchiang7/v4)
+This is my personal portfolio website built using **Angular**. It showcases my skills, projects, experience, and technical expertise with a clean and responsive user interface.
 
-Because I'm not a ReactJS expert (language of the Britanny's proyect), and I liked so much the design, I decided to develop this proyect with Angular's architecture. The website is not connected to any api yet, nither it has dinamic content so that all the content is static inside the HTML files in Angular. I want to connect it to an API in the future, from where i can manage in an easy way without having touch the HTML files in angular.
+Currently, all content is static and managed within the Angular application. In the future, I plan to integrate APIs to make the content dynamic and easier to manage.
 
-If you have any idea or you just want to contribute in this repo in order to improve the development architecture, I invite you to do it! If you have some suggestion to me, i will be glade to recibe it
+**Developed by:** **Rani Mohadikar**
 
-### Prerequisites
+---
 
-You need to have npm and Angular CLI installed in your pc. Npm is aviable with NodeJS in [here](https://nodejs.org/es/). After you install npm, install Angular CLI by typping the following command in your terminal
+## Prerequisites
 
-``` bash
+Before running the project, make sure you have:
+
+* Node.js & npm installed
+* Angular CLI installed
+
+```bash
 npm install -g @angular/cli
 ```
 
-### Installing
+---
 
-Just clone  the repo and excecute the following command inside the folder proyect
+## Installation
 
-``` bash
+Clone the repository and install the dependencies:
+
+```bash
 npm install
 ```
 
-### All done!!
+Run the application:
 
-Now just run
-```
+```bash
 npm start
 ```
-Wait to compile and go to [http://localhost:4200](http://localhost:4200) after compile finish
 
-### Wait! I does not have finished yet!
+After the project compiles successfully, open:
 
-I want to quote what Brittanty has added in her proyect:
+`http://localhost:4200`
 
->## 🚨 Forking this repo (please read!)
+---
 
->Many people have contacted me asking me if they can use this code for their own website, and the answer to that question is usually **yes, with attribution**.
-I value keeping my site open source, but as you all know, _**plagiarism is bad**_. It's always disheartening whenever I find that someone has copied my site without giving me credit. I spent a non-trivial amount of effort building and designing this iteration of my website, and I am proud of it! All I ask of you all is to not claim this effort as your own.
+## Features
 
-As I have made an attribution to Brittany, i wait you do the same with both in this proyect. Thank you :)
+* Responsive Design
+* Modern UI
+* Angular Architecture
+* Reusable Components
+* Easy to Customize
+* Clean Project Structure
 
-Sorry my bad English
+---
+
+## Future Improvements
+
+* API Integration
+* Dynamic Content Management
+* Performance Optimization
+* Additional Features and Enhancements
+
+---
+
+## Author
+
+**Rani Mohadikar**

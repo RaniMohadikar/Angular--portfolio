@@ -1,0 +1,192 @@
+{
+  "Header.Item1": "मेरे बारे में",
+  "Header.Item2": "अनुभव",
+  "Header.Item3": "प्रोजेक्ट्स",
+  "Header.Item4": "संपर्क",
+  "Header.cvBtn": "रेज़्युमे",
+  "Header.cvName": "Rani Mohadikar - CV.pdf",
+  "Loading": "लोड हो रहा है...",
+
+  "Banner.Pretitle": "नमस्ते! मेरा नाम है",
+  "Banner.Description": "मैं एक <span class='underline'>Sr. Software Engineer</span> हूँ जिसे <span class='underline'>5+ वर्षों</span> का अनुभव है। मैं <span class='underline'>Angular</span>, <span class='underline'>React.js</span> और <span class='underline'>Node.js</span> में विशेषज्ञता रखती हूँ। मैं healthcare, fintech और <span class='underline'>AI-driven systems</span> में scalable web और mobile applications बनाती हूँ, साथ ही <span class='underline'>LLM</span> और <span class='underline'>MCP Server</span> को intelligent chatbot architectures में integrate करने का hands-on अनुभव है।",
+  "Banner.ActionBtn": "हाय करें",
+
+  "AboutMe.Title": "मेरे बारे में",
+  "AboutMe.Paragraphs": [
+    "<span class='underline'>5+ वर्षों के अनुभव</span> में मैंने कई भूमिकाएँ निभाई हैं: <span class='underline'>Sr. Software Engineer</span>, <span class='underline'>Angular Developer</span>, <span class='underline'>React Developer</span> और <span class='underline'>Full Stack Developer</span>। मुझे clean, responsive interfaces और scalable backend solutions बनाना पसंद है।",
+    "मैंने विभिन्न domains में enterprise-grade applications deliver की हैं — <span class='underline'>Hospital Information Systems</span> और <span class='underline'>Banking Payment Platforms</span> से लेकर <span class='underline'>AI Chatbot Systems</span> और <span class='underline'>E-Commerce portals</span> तक। मुझे full SDLC, Agile Scrum workflows और cross-functional team collaboration का अनुभव है।",
+    "वर्तमान में मैं एक AI-powered conversational system पर काम कर रही हूँ जो <span class='underline'>OndeWo</span>, <span class='underline'>MCP Server middleware</span> और <span class='underline'>LLM</span> को मिलाकर intelligent, hybrid rule-based और AI-driven chat interactions प्रदान करता है।",
+    "कुछ technologies जिनके साथ मैंने काम किया है (इनके अलावा भी):"
+  ],
+
+  "Experience.Title": "अनुभव",
+  "Experience.Jobs": [
+    {
+      "Tab": "Bluexkye",
+      "Title": "Sr. Software Engineer",
+      "Date": "नवंबर 2025 - वर्तमान",
+      "Description": [
+        "OndeWo को conversation platform, MCP Server को middleware और LLM को intelligent responses के लिए उपयोग करके AI chatbot system design और develop किया।",
+        "OndeWo structured, rule-based interactions के लिए intent detection और dialog flow handle करता है।",
+        "MCP Server business logic, third-party integrations और API routing orchestrate करता है।",
+        "LLM को contextual और open-ended conversational capabilities के लिए integrate किया गया है।",
+        "Rule-based और AI-driven दोनों chat flows को support करने वाला scalable, secure hybrid system architect किया।",
+        "Pipeline में clean separation of concerns के साथ modular, maintainable design सुनिश्चित किया।"
+      ]
+    },
+    {
+      "Tab": "NeoSoft",
+      "Title": "React Developer",
+      "Date": "जून 2025 - जुलाई 2025",
+      "Description": [
+        "React.js का उपयोग करके full-featured user और admin eCommerce portals develop किए।",
+        "Product listing, shopping cart, order tracking और secure authentication flows implement किए।",
+        "State management और navigation के लिए React Hooks, Redux Toolkit और React Router उपयोग किए।",
+        "Responsive UI और optimized runtime performance के साथ role-based admin modules बनाए।",
+        "Seamless data operations और real-time updates के लिए backend के साथ RESTful APIs integrate किए।"
+      ]
+    },
+    {
+      "Tab": "Medimaze",
+      "Title": "Angular Developer",
+      "Date": "मई 2023 - फरवरी 2025",
+      "Description": [
+        "Angular 14.2.0 और PrimeNG का उपयोग करके Hospital Information Management System (HIMS) web application develop और maintain किया।",
+        "Patient workflows, appointments, billing और reporting को cover करने वाला responsive, user-friendly interface deliver किया।",
+        "Requirements gather करने और उन्हें technical solutions में translate करने के लिए clients के साथ directly collaborate किया।",
+        "End-to-end functionality के लिए database management सहित front-end और back-end development दोनों handle किए।",
+        "Efficient, on-time project delivery के लिए Agile Scrum methodology और SDLC process follow किया।"
+      ]
+    },
+    {
+      "Tab": "Proclink",
+      "Title": "Full Stack Developer",
+      "Date": "नवंबर 2021 - अप्रैल 2023",
+      "Description": [
+        "IONIC 6.16.1, Angular 12.2.0 और Java backend का उपयोग करके web और mobile के लिए Banking Payment Management System develop और maintain किया।",
+        "Secure payment flows के साथ Credit Card Management System और E-Wallet Management System implement किए।",
+        "Smooth, secure transactions के लिए Java-based REST APIs को Angular/Ionic frontend के साथ integrate किया।",
+        "High code quality, reliability और performance सुनिश्चित करने के लिए web और mobile modules के लिए unit tests लिखे।",
+        "Web और mobile devices में cross-platform compatibility और responsive design सुनिश्चित किया।"
+      ]
+    },
+    {
+      "Tab": "AnkHub",
+      "Title": "Junior Developer",
+      "Date": "जुलाई 2020 - अक्टूबर 2021",
+      "Description": [
+        "IONIC 6.16.1 और Angular 11.2.2 का उपयोग करके Attendance & Monitoring Management System mobile application develop किया।",
+        "Effective employee data management के लिए HTML, CSS और Bootstrap 4 के साथ HRMS Web Application बनाया।",
+        "Multiple clients के लिए WordPress web applications manage और develop किए।",
+        "Business growth को support करने के लिए digital marketing और social media campaigns में योगदान दिया।"
+      ]
+    }
+  ],
+
+  "FeatureProjects.Title": "मेरे प्रोजेक्ट्स",
+  "FeatureProjects.Label": "मुख्य प्रोजेक्ट",
+  "FeatureProjects.Projects": [
+    {
+      "Title": "AI Chatbot System",
+      "Description": "Bluexkye में बनाया गया intelligent conversational AI system। Intent detection और dialog flow के लिए <span class='underline'>OndeWo</span>, business logic और integrations के लिए middleware के रूप में <span class='underline'>MCP Server</span>, और open-ended contextual responses के लिए <span class='underline'>LLM</span> का उपयोग करता है। Scalable और secure architecture में rule-based और AI-driven दोनों interactions को support करता है।",
+      "imgs": [
+        "assets/images/AIBot/aibot1.svg",
+        "assets/images/AIBot/aibot2.svg",
+        "assets/images/AIBot/aibot3.svg",
+        "assets/images/AIBot/aibot4.svg",
+        "assets/images/AIBot/aibot5.svg"
+      ],
+      "Technologies": ["OndeWo", "MCP Server", "LLM", "Node.js", "REST APIs"]
+    },
+    {
+      "Title": "HIMS – Hospital Information Management System",
+      "Description": "Medimaze Solutions में develop किया गया comprehensive hospital management web application। <span class='underline'>Angular 14</span> और <span class='underline'>PrimeNG</span> के साथ बनाया गया, यह fully responsive interface के साथ patient management, appointment scheduling, billing और reporting को cover करता है। <span class='underline'>Database design</span> और <span class='underline'>client requirement gathering</span> सहित full-stack development handle किया।",
+      "imgs": [
+        "assets/images/HIMS/hims1.svg",
+        "assets/images/HIMS/hims2.svg",
+        "assets/images/HIMS/hims3.svg",
+        "assets/images/HIMS/hims4.svg",
+        "assets/images/HIMS/hims5.svg"
+      ],
+      "Technologies": ["Angular 14", "PrimeNG", "TypeScript", "SASS", "MySQL"]
+    },
+    {
+      "Title": "Banking Payment Management System",
+      "Description": "Proclink Consulting Services में develop किया गया secure, cross-platform <span class='underline'>web और mobile banking application</span>। <span class='underline'>IONIC 6.16.1</span>, <span class='underline'>Angular 12.2.0</span> और <span class='underline'>Java backend</span> के साथ बनाया गया। इसमें <span class='underline'>Credit Card Management module</span> और <span class='underline'>E-Wallet Management System</span> शामिल हैं। <span class='underline'>REST APIs</span> को Angular/Ionic frontend के साथ integrate किया। <span class='underline'>OAuth2 / OIDC authentication</span> implement किया। <span class='underline'>Unit tests</span> Jest से लिखे।",
+      "imgs": [
+        "assets/images/Banking/banking1.svg",
+        "assets/images/Banking/banking2.svg",
+        "assets/images/Banking/banking3.svg",
+        "assets/images/Banking/banking4.svg",
+        "assets/images/Banking/banking5.svg"
+      ],
+      "Technologies": ["IONIC 6", "Angular 12", "Java", "REST APIs", "OAuth2", "TypeScript", "Jest"]
+    },
+    {
+      "Title": "eCommerce Portal (User & Admin)",
+      "Description": "NeoSoft में separate user और admin portals के साथ develop किया गया full-featured <span class='underline'>eCommerce platform</span>। इसमें <span class='underline'>product listing</span>, <span class='underline'>cart management</span>, <span class='underline'>order tracking</span> और <span class='underline'>role-based authentication</span> शामिल हैं। Efficient state management के लिए React.js, Redux Toolkit और React Router के साथ बनाया गया।",
+      "imgs": [
+        "assets/images/Ecom/Framecartel3.jpg",
+        "assets/images/Ecom/Framecartel4.jpg",
+        "assets/images/Ecom/Framecartel5.jpg",
+        "assets/images/Ecom/Framecartel6.jpg",
+        "assets/images/Ecom/Framecartel7.jpg",
+        "assets/images/Ecom/Framecartel12.jpg"
+      ],
+      "Technologies": ["React.js", "Redux Toolkit", "React Router", "Bootstrap 5", "REST APIs"]
+    },
+    {
+      "Title": "HRMS Web Application",
+      "Description": "Employee workflows को streamline करने के लिए बनाया गया <span class='underline'>Human Resource Management System</span>। इसमें employee onboarding, attendance tracking, leave management और performance reporting शामिल हैं, modern web standards का उपयोग करके clean, responsive UI के साथ।",
+      "imgs": [
+        "assets/images/Attendance/HRMS web2.jpg",
+        "assets/images/Attendance/HRMS web3.jpg",
+        "assets/images/Attendance/HRMS web4.jpg",
+        "assets/images/Attendance/HRMS web5.jpg",
+        "assets/images/Attendance/HRMS web5 (1).jpg",
+        "assets/images/Attendance/HRMS web6.jpg",
+        "assets/images/Attendance/HRMS web7.jpg",
+        "assets/images/Attendance/HRMS web8.jpg",
+        "assets/images/Attendance/HRMS web9.jpg",
+        "assets/images/Attendance/HRMS web10.jpg"
+      ],
+      "Technologies": ["Angular", "HTML5", "CSS3", "Bootstrap 4", "JavaScript"]
+    },
+    {
+      "Title": "Attendance & Monitoring System",
+      "Description": "AnkHub में develop किया गया real-time employee attendance tracking और monitoring के लिए <span class='underline'>mobile-first application</span>। <span class='underline'>IONIC 6.16.1</span> और <span class='underline'>Angular 11</span> के साथ बनाया गया, field staff के लिए intuitive interfaces और management dashboards पर focused।",
+      "imgs": [
+        "assets/images/Mobile-hrms/hrms mobile1.jpg",
+        "assets/images/Mobile-hrms/hrms mobile2.jpg",
+        "assets/images/Mobile-hrms/hrms mobile3.jpg",
+        "assets/images/Mobile-hrms/hrms mobile4.jpg",
+        "assets/images/Mobile-hrms/hrms mobile5.png",
+        "assets/images/Mobile-hrms/hrms mobile6.png",
+        "assets/images/Mobile-hrms/hrms mobile7.jpg",
+        "assets/images/Mobile-hrms/hrms mobile8.jpg",
+        "assets/images/Mobile-hrms/hrms mobile9.jpg",
+        "assets/images/Mobile-hrms/hrms mobile10.jpg"
+      ],
+      "Technologies": ["IONIC 6", "Angular 11", "TypeScript", "SASS", "Firebase"]
+    }
+  ],
+
+  "OtherProjects.Title": "और प्रोजेक्ट्स",
+  "OtherProjects.Projects": [
+    {
+      "Title": "ShopEasy – Mobile Shopping App",
+      "Description": "<span class='underline'>Ionic</span> और <span class='underline'>Angular</span> के साथ Android और iOS के लिए बनाया गया feature-rich <span class='underline'>E-Commerce Mobile App</span>। Product browsing, cart, secure checkout, order tracking और profile management शामिल हैं। Authentication, payments और real-time data के लिए <span class='underline'>REST APIs</span> integrate किए, optimized performance और reusable components के साथ।",
+      "imgs": ["assets/images/hands-game.png"],
+      "ghLink": "https://github.com/RaniMohadikar/E-com",
+      "demoLink": "https://e-com-lekh.vercel.app/login",
+      "Technologies": ["IONIC", "Angular", "TypeScript", "REST APIs", "SASS"]
+    }
+  ],
+
+  "OtherProjects.Projects.hidden": [],
+
+  "Contact.Pretitle": "आगे क्या?",
+  "Contact.Title": "संपर्क करें",
+  "Contact.Content": "मैं वर्तमान में नए अवसरों के लिए खुली हूँ। चाहे आपके पास कोई project idea हो, कुछ exciting पर collaborate करना हो, या बस connect करना हो — बेझिझक संपर्क करें। मैं आपका message देखते ही जल्द से जल्द reply करूँगी!",
+  "Contact.Btn": "हाय करें"
+}
