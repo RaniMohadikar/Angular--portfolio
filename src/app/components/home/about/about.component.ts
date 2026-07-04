@@ -73,7 +73,7 @@ export class AboutComponent implements OnInit, AfterViewInit {
   private initAnimations(): void {
     const aboutSection = this.elementRef.nativeElement;
 
-    // Animar título
+    // Animate title
     const title = aboutSection.querySelector('.about-title');
     if (title) {
       this.animationsService.observeElement(title, {
@@ -82,7 +82,7 @@ export class AboutComponent implements OnInit, AfterViewInit {
       });
     }
 
-    // Animar párrafos con stagger
+    // Animate paragraphs with stagger
     const paragraphs = aboutSection.querySelectorAll('.about-description p');
     paragraphs.forEach((p: HTMLElement, index: number) => {
       this.animationsService.observeElement(p, {
@@ -92,7 +92,7 @@ export class AboutComponent implements OnInit, AfterViewInit {
       });
     });
 
-    // Animar lista de skills
+    // Animate skills list
     const skillsList = aboutSection.querySelector('.skills-list');
     if (skillsList) {
       this.animationsService.observeElement(skillsList as HTMLElement, {
@@ -101,7 +101,7 @@ export class AboutComponent implements OnInit, AfterViewInit {
       });
     }
 
-    // Animar skills individuales con stagger
+    // Animate individual skills with stagger
     const skills = aboutSection.querySelectorAll('.skill-element');
     skills.forEach((skill: HTMLElement, index: number) => {
       this.animationsService.observeElement(skill, {
@@ -109,11 +109,11 @@ export class AboutComponent implements OnInit, AfterViewInit {
         delay: 1000 + (index * 100)
       });
 
-      // Añadir efectos hover
+      // Add hover effects
       this.animationsService.addHoverEffects(skill, ['lift', 'glow']);
     });
 
-    // Animar imagen
+    // Animate image
     const imageContainer = aboutSection.querySelector('.about-img-container');
     if (imageContainer) {
       this.animationsService.observeElement(imageContainer as HTMLElement, {

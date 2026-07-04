@@ -62,23 +62,23 @@ export class SplashScreenComponent implements OnInit, OnDestroy {
   }
 
   private startSplashTimer(): void {
-    // Esperar tiempo mínimo y luego verificar si podemos ocultar el splash
+    // Wait minimum time then check if splash can be hidden
     this.splashTimeout = window.setTimeout(() => {
       this.checkIfReadyToHide();
     }, this.minimumLoadingTime);
   }
 
   private checkIfReadyToHide(): void {
-    // Verificar si el DOM está completamente cargado
+    // Check if DOM is fully loaded
     if (document.readyState === 'complete') {
       this.hideSplashScreen();
     } else {
-      // Si no está completo, esperar un poco más
+      // If not complete, wait a bit more
       window.addEventListener('load', () => {
         this.hideSplashScreen();
       }, { once: true });
       
-      // Fallback después de 2 segundos adicionales
+      // Fallback after 2 additional seconds
       setTimeout(() => {
         this.hideSplashScreen();
       }, 2000);
@@ -86,13 +86,13 @@ export class SplashScreenComponent implements OnInit, OnDestroy {
   }
 
   private hideSplashScreen(): void {
-    if (this.isHidden) return; // Evitar múltiples llamadas
+    if (this.isHidden) return; // Prevent multiple calls
     
     this.isHidden = true;
     
-    // Emitir evento después de que la animación de salida termine
+    // Emit event after exit animation ends
     setTimeout(() => {
       this.animationCompleted.emit();
-    }, 800); // Coincide con la duración de la transición CSS
+    }, 800); // Matches CSS transition duration
   }
 }

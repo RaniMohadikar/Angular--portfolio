@@ -101,15 +101,15 @@
                              class="rounded about-image clickable"
                              width="100%"
                              src="assets/images/Rani Mohadikar.jpeg"
-                             alt="Rani Mohadikar "
-                             title="Click para ver imagen ampliada">
+                             alt="Rani Mohadikar"
+                             title="Click to view enlarged image">
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- Modal para imagen ampliada -->
+    <!-- Modal for enlarged image -->
     <div class="image-modal-overlay"
          *ngIf="isImageModalOpen"
          (click)="onModalBackdropClick($event)"
@@ -117,12 +117,12 @@
         <div class="image-modal-container">
             <button class="modal-close-btn"
                     (click)="closeImageModal()"
-                    aria-label="Cerrar modal">
+                    aria-label="Close modal">
                 <span>&times;</span>
             </button>
             <img class="modal-image"
                  src="assets/images/me6.jpg"
-                 alt="Rani Mohadikar  - Imagen ampliada"
+                 alt="Rani Mohadikar - Enlarged image"
                  [@zoomIn]>
         </div>
     </div>

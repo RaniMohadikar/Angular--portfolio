@@ -36,11 +36,11 @@ export class AppComponent implements OnInit, OnDestroy{
     this.titleService.setTitle( "Rani Mohadikar | Frontend Developer" );
 
     this.metaService.addTags([
-      {name: 'keywords', content: 'Frontend, software, developer'},
-      {name: 'description', content: 'Con 4 años de experiencia desarrollando sistemas, interfaces, bots y soluciones tecnológicas  para hacer de la web un lugar mejor. En mi trabajo me gusta liderar, proponer y ejecutar ideas, escribir y refactorizar código limpio, reutilizable y escalable.'},
+      {name: 'keywords', content: 'Frontend, software, developer, Angular, React, Node.js'},
+      {name: 'description', content: 'Sr. Software Engineer with 5+ years of experience in Angular, React.js, and Node.js. Building scalable web and mobile applications across healthcare, fintech, and AI-driven systems.'},
     ]);
 
-    // Inicializar partículas globales después de un breve delay
+    // Initialize global particles after a short delay
     setTimeout(() => {
       this.particlesService.init();
     }, 100);
@@ -55,7 +55,7 @@ export class AppComponent implements OnInit, OnDestroy{
       syncTouch: false
     });
 
-    // Función de animación
+    // Animation function
     const raf = (time: number) => {
       this.lenis.raf(time);
       requestAnimationFrame(raf);
@@ -68,14 +68,14 @@ export class AppComponent implements OnInit, OnDestroy{
       this.lenis.destroy();
     }
 
-    // Destruir partículas
+    // Destroy particles
     this.particlesService.destroy();
   }
 
   onSplashAnimationCompleted(): void {
     this.appContentVisible = true;
     
-    // Inicializar Lenis después de que el contenido sea visible
+    // Initialize Lenis after content becomes visible
     setTimeout(() => {
       this.initLenis();
     }, 100);

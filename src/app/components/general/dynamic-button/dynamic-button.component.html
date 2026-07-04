@@ -9,28 +9,28 @@
   [class.dynamic-btn-small]="size === 'small'"
   (click)="onButtonClick($event)">
 
-  <!-- Background animado -->
+  <!-- Animated background -->
   <div class="btn-bg"></div>
 
-  <!-- Efecto de ondas líquidas -->
+  <!-- Liquid wave effect -->
   <div class="liquid-container">
     <div class="liquid-wave wave-1"></div>
     <div class="liquid-wave wave-2"></div>
     <div class="liquid-wave wave-3"></div>
   </div>
 
-  <!-- Partículas -->
+  <!-- Particles -->
   <div class="particles-container">
     <div class="particle" *ngFor="let p of [1,2,3,4,5,6,7,8]; index as i"></div>
   </div>
 
-  <!-- Efecto de brillo -->
+  <!-- Shine effect -->
   <div class="shine-effect"></div>
 
-  <!-- Texto del botón -->
+  <!-- Button text -->
   <span class="btn-text">{{ text }}</span>
 
-  <!-- Efecto glitch overlay -->
+  <!-- Glitch overlay effect -->
   <div class="glitch-overlay">
     <span class="glitch-text">{{ text }}</span>
     <span class="glitch-text">{{ text }}</span>

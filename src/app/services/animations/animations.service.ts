@@ -289,7 +289,7 @@ export class AnimationsService {
     const text = element.textContent || '';
     element.textContent = '';
 
-    // Añadir clase typewriter con cursor parpadeante
+    // Add typewriter class with blinking cursor
     this.renderer.addClass(element, 'animate-typewriter');
     this.renderer.addClass(element, 'animate-active');
 
@@ -299,7 +299,7 @@ export class AnimationsService {
       i++;
       if (i >= text.length) {
         clearInterval(typeInterval);
-        // Quitar cursor después de completar el efecto
+        // Remove cursor after effect completes
         setTimeout(() => {
           this.renderer.removeClass(element, 'animate-typewriter');
           this.renderer.setStyle(element, 'border-right', 'none');

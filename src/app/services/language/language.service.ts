@@ -16,19 +16,16 @@ export class LanguageService {
 
   initLanguage(){
     this.translateService.addLangs(["en", "hi"])
-    let language = navigator.language || (navigator as any).userLanguage;
-    language = language.split("-").includes("hi") ? "hi" : "en"
-    this.translateService.setDefaultLang(language)
-
-    // Change the URL without navigate:
-    this.location.go(language)
-
-    this.language=language
+    this.translateService.setDefaultLang("en")
+    this.translateService.use("en")
+    this.location.go("en")
+    this.language = "en"
   }
 
   changeLanguage(language){
+    this.translateService.use(language)
     this.translateService.setDefaultLang(language)
     this.location.go(language)
-    this.language=language
+    this.language = language
   }
 }

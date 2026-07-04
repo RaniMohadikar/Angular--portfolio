@@ -16,7 +16,7 @@ export class HomeComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    this.analyticsService.sendAnalyticPageView("/inicio", "Se entro a inicio")
+    this.analyticsService.sendAnalyticPageView("/home", "Entered home page")
   }
 
 

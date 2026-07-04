@@ -19,22 +19,22 @@ export class Particle {
     this.x += this.vx;
     this.y += this.vy;
 
-    // Rebote en los bordes
+    // Bounce on edges
     if (this.x < 0 || this.x > window.innerWidth) this.vx *= -1;
     if (this.y < 0 || this.y > window.innerHeight) this.vy *= -1;
   }
 
   draw(ctx: CanvasRenderingContext2D): void {
-    // Configurar shadow más sutil
+    // Configure subtle shadow
     ctx.shadowColor = 'rgba(100, 255, 218, 0.1)';
     ctx.shadowBlur = 5;
 
     ctx.beginPath();
     ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
-    ctx.fillStyle = 'rgba(100, 255, 218, 0.3)'; // Más opaco -> más sutil
+    ctx.fillStyle = 'rgba(100, 255, 218, 0.3)';
     ctx.fill();
 
-    // Resetear shadow
+    // Reset shadow
     ctx.shadowColor = 'transparent';
     ctx.shadowBlur = 0;
   }
@@ -58,19 +58,19 @@ export class ParticlesService {
   init(): void {
     if (this.isInitialized) return;
 
-    console.log('Inicializando partículas globales...');
+    console.log('Initializing global particles...');
     this.createCanvas();
     this.initParticles();
     this.startAnimation();
     this.bindResizeEvent();
     this.isInitialized = true;
-    console.log('Partículas inicializadas:', this.particles.length, 'partículas creadas');
+    console.log('Particles initialized:', this.particles.length, 'particles created');
   }
 
   destroy(): void {
     if (!this.isInitialized) return;
 
-    console.log('Destruyendo partículas...');
+    console.log('Destroying particles...');
     if (this.animationId) {
       cancelAnimationFrame(this.animationId);
     }
@@ -87,7 +87,7 @@ export class ParticlesService {
     this.canvas = this.renderer.createElement('canvas');
     this.renderer.addClass(this.canvas, 'global-particles-canvas');
 
-    // Estilos para el canvas
+    // Canvas styles
     this.renderer.setStyle(this.canvas, 'position', 'fixed');
     this.renderer.setStyle(this.canvas, 'top', '0');
     this.renderer.setStyle(this.canvas, 'left', '0');
@@ -98,14 +98,14 @@ export class ParticlesService {
 
     this.renderer.appendChild(document.body, this.canvas);
 
-    // Configurar canvas
+    // Configure canvas
     this.canvas.width = window.innerWidth;
     this.canvas.height = window.innerHeight;
     this.ctx = this.canvas.getContext('2d')!;
   }
 
   private initParticles(): void {
-    // Crear más partículas para que se vean bien en toda la página
+    // Create particles
     for (let i = 0; i < 80; i++) {
       this.particles.push(new Particle());
     }
@@ -117,13 +117,13 @@ export class ParticlesService {
     const animate = () => {
       this.ctx!.clearRect(0, 0, this.canvas!.width, this.canvas!.height);
 
-      // Dibujar partículas
+      // Draw particles
       this.particles.forEach(particle => {
         particle.update();
         particle.draw(this.ctx!);
       });
 
-      // Conectar partículas cercanas
+      // Connect nearby particles
       this.connectParticles();
 
       this.animationId = requestAnimationFrame(animate);
@@ -143,7 +143,7 @@ export class ParticlesService {
 
         if (distance < 120) {
           this.ctx.beginPath();
-          const opacity = (120 - distance) / 120 * 0.2; // Reducido de 0.5 a 0.2
+          const opacity = (120 - distance) / 120 * 0.2;
           this.ctx.strokeStyle = `rgba(100, 255, 218, ${opacity})`;
           this.ctx.lineWidth = 1;
           this.ctx.moveTo(this.particles[i].x, this.particles[i].y);
