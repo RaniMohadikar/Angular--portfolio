@@ -38,6 +38,7 @@
                 position: relative;
                 z-index: 2;
                 padding: 25px;
+                margin-top: -26px;
                 background-color: $LightNavy;
                 color: $LightSlate;
                 font-size: 18px;
@@ -54,7 +55,7 @@
                 -ms-flex-wrap: wrap;
                 flex-wrap: wrap;
                 padding: 0;
-                margin: 25px 0 10px;
+                // margin: 25px 0 10px;
                 list-style: none;
                 li {
                     margin-right: 0;

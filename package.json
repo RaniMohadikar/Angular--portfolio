@@ -6,7 +6,7 @@
     "start": "ng serve",
     "build": "ng build",
     "build-portfolio": "ng build --configuration production",
-    "build:prod": "ng build --configuration production --base-href /",
+    "build:prod": "ng build --configuration production --base-href /portfolio/",
     "postbuild:prod": "cp .nojekyll dist/rani-portfolio/browser/ && cp CNAME dist/rani-portfolio/browser/",
     "deploy": "npm run build:prod && npm run postbuild:prod && ngh --dir=dist/rani-portfolio/browser",
     "deploy:ci": "npm run postbuild:prod && ngh --dir=dist/rani-portfolio/browser --no-silent",
